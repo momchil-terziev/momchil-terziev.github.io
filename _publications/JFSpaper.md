@@ -2,7 +2,7 @@
 title: "Numerical investigation of the behaviour and performance of ships advancing through restricted shallow waters"
 collection: publications
 permalink: /publication/JFSpaper
-
+excerpt:
 date: 2018
 venue: 'Journal of Fluids and Structures'
 paperurl: 'https://doi.org/10.1016/j.jfluidstructs.2017.10.003'
