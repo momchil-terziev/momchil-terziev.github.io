@@ -85,7 +85,7 @@ author:
   bio              : "Postdoctoral researcher in Computational Fluid Dynamics"
   location         : "University of Strathclyde, Glasgow"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.co.uk/citations?user=vu_NNEQAAAAJ&hl=en"
   email            : "momchil.terziev@strath.ac.uk"
   researchgate     :  "https://www.researchgate.net/profile/Momchil-Terziev-2"
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "momchil-terziev"
+  github           : # "momchil-terziev"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://uk.linkedin.com/in/momchil-terziev-55a53b18a"
   orcid            : "https://orcid.org/0000-0002-1664-6186"
   pinterest        :
   soundcloud       :
