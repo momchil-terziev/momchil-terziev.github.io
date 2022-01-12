@@ -2,10 +2,11 @@
 title: "Numerical investigation of the behaviour and performance of ships advancing through restricted shallow waters"
 collection: publications
 permalink: /publication/JFSpaper
-excerpt:
+excerpt: 
 date: 2018
 venue: 'Journal of Fluids and Structures'
 paperurl: 'https://doi.org/10.1016/j.jfluidstructs.2017.10.003'
+citation: 'Terziev, M., Tezdogan, T., Oguz, E., Gourlay, T., Demirel, Y.K. and Incecik, A., 2018. Numerical investigation of the behaviour and performance of ships advancing through restricted shallow waters. Journal of Fluids and Structures, 76, pp.185-215.'
 ---
 This paper is about the number 2. The number 3 is left for future work.
 
@@ -19,6 +20,3 @@ Upon entering shallow waters, ships experience a number of changes due to the hy
  - Sinkage, trim and resistance measured in Star-CCM+.
  - Results were compared to those of SlenderFlow.
  - Wave patterns were shown to vary significantly for different channel topographies.
-
-
-Recommended citation: Terziev, M., Tezdogan, T., Oguz, E., Gourlay, T., Demirel, Y.K. and Incecik, A., 2018. Numerical investigation of the behaviour and performance of ships advancing through restricted shallow waters. Journal of Fluids and Structures, 76, pp.185-215.
