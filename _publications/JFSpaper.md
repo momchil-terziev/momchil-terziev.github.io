@@ -1,7 +1,7 @@
 ---
 title: "Numerical investigation of the behaviour and performance of ships advancing through restricted shallow waters"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/JFSpaper
 
 date: 2018
 venue: 'Journal of Fluids and Structures'
@@ -21,4 +21,4 @@ Upon entering shallow waters, ships experience a number of changes due to the hy
  - Wave patterns were shown to vary significantly for different channel topographies.
 
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+Recommended citation: Terziev, M., Tezdogan, T., Oguz, E., Gourlay, T., Demirel, Y.K. and Incecik, A., 2018. Numerical investigation of the behaviour and performance of ships advancing through restricted shallow waters. Journal of Fluids and Structures, 76, pp.185-215.
