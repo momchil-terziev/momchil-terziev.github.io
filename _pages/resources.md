@@ -1,9 +1,13 @@
 ---
-permalink: /
+layout: archive
 title: "Resources"
-excerpt: "RR"
+permalink: /resources/
 author_profile: true
-redirect_from: 
-  - /resources/
-  - /resources.html
 ---
+
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
