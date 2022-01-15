@@ -2,7 +2,7 @@
 title: "Scale effects and full-scale ship hydrodynamics: a review"
 collection: publications
 permalink: /publication/review-paper-scale-effects
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2022-02-02
 venue: 'Ocean Engineering'
 paperurl: '10.1016/j.oceaneng.2021.110496'
