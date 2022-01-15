@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        
+		<title>
+            Pure - Login
+		</title><script type="text/javascript" src="/admin/resources/style/lib/jquery.min.js?stamp=1642147740193"></script><script type="text/javascript" src="/admin/resources/style/lib/jquery-noconflict.js?stamp=1642147740193"></script><script type="text/javascript" src="/admin/javax.faces.resource/jsf-compressed.js.xhtml?ln=javax.faces"></script>
+        <link rel="shortcut icon" href="/admin/resources/favicon.ico" /><link type="text/css" rel="stylesheet" href="/admin/resources/style/css/modules/login.css?stamp=1642147740193" /><link type="text/css" rel="stylesheet" href="/admin/resources/style/css/combined/components.css?stamp=1642147740193" /><script type="text/javascript" src="/admin/resources/style/lib/prototype.js?stamp=1642147740193"></script><script type="text/javascript" src="/admin/resources/style/js/atira.js?stamp=1642147740193"></script><script type="text/javascript" src="/admin/resources/style/js/pure.js?stamp=1642147740193"></script><script type="text/javascript" src="/admin/resources/style/lib/wysihat.js?stamp=1642147740193"></script></head>
+	<body class="pure_login  decisions-FINAL-blue-RGB"><!--[if IE 7]>
+		<link type="text/css" rel="stylesheet" href="/admin/resources/style/css/msie7.css" /><![endif]--><!--[if IE 8]>
+		<link type="text/css" rel="stylesheet" href="/admin/resources/style/css/msie8.css" /><![endif]-->
+		<table class="pure_login_table" cellpadding="0" cellspacing="0">
+			<tr><td class="pure_login_table">
+<form id="loginForm" name="loginForm" method="post" action="/admin/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="loginForm" value="loginForm" />
+
+					<div class="pure_login_box">
+						<div class="pure_login_header">
+                            <span class="pure_login_logo"></span>
+                            <h1 class="pure_login_cust_name" title="University of Strathclyde (v5.22.1)">University of Strathclyde (v5.22.1)</h1>
+						</div><div class="pure_space" style="padding:20px;"><div class="pure_box_message cookies common_hidden" id="j_id2069295699_7b56f30c"><div class="pure_box_top_message"><div><div></div></div></div><div class="pure_box_middle_message"><div class="pure_box_middle_message"><div class="pure_box_content_message">
+                                <p><span class="common_icon_13" style="background-image: url('/admin/resources/style/icons/monochrome/info13.png');"></span><span class="info_text">Cookies are required to login. Please enable them to proceed.</span></p></div></div></div><div class="pure_box_bottom_message"><div><div></div></div></div></div>
+                            <script type="text/javascript">
+                                if(atira) {
+                                    atira.onReady(function() {
+                                        var cookies = $$('div.cookies')[0];
+                                        if(cookies && !atira.cookie.enabled()) {
+                                            cookies.removeClassName('common_hidden');
+                                        }
+                                    });
+                                }
+                            </script>
+                            <div class="login_container">
+                                <div style="width: 33%; float: left;">
+                                    <div class="login_column_left">
+                                        <div class="login_row">
+                                            <label for="j_username_input_field">Username</label>
+                                        </div>
+                                        <div class="login_row">
+                                            <label for="j_password_input_field">Password</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="width: 66%; float: left;">
+                                    <div class="login_column_right">
+                                        <div class="login_row"><span id="j_username" class="pure_textfield pure_widget_focusable pure_textfield_adaptive"><input type="hidden" name="j_username__hidden" value="" /><span class="pure_textfield_top"><span><span></span></span></span><span class="pure_textfield_middle"><span class="pure_textfield_middle"><span class="pure_textfield_body"><input type="text" name="j_username" class="pure_textfield_input" id="j_username_input_field" value="" /></span></span></span><span class="pure_textfield_bottom"><span><span></span></span></span></span><script type="text/javascript">
+try {(function() {
+new pure.TextField({'element':'j_username','multiline':false,'expanding':false,'allowMarkup':false,'hasPlaceholder':false,'name':'username'});
+})();} catch (e) {if (window['atira']) {atira.handleException(e);}}
+</script>
+                                        </div>
+                                        <div class="login_row"><span id="j_password" class="pure_textfield pure_widget_focusable pure_textfield_adaptive"><input type="hidden" name="j_password__hidden" value="" /><span class="pure_textfield_top"><span><span></span></span></span><span class="pure_textfield_middle"><span class="pure_textfield_middle"><span class="pure_textfield_body"><input type="password" name="j_password" class="pure_textfield_input" id="j_password_input_field" value="" /></span></span></span><span class="pure_textfield_bottom"><span><span></span></span></span></span><script type="text/javascript">
+try {(function() {
+new pure.TextField({'element':'j_password','multiline':false,'expanding':false,'allowMarkup':false,'hasPlaceholder':false,'name':'password'});
+})();} catch (e) {if (window['atira']) {atira.handleException(e);}}
+</script>
+                                        </div>
+                                        <div class="login_row" style="text-align: right;">
+                                            
+                                            <input type="submit" style="position: absolute; left: -10000px; top: -10000px; width: 0; height: 0;" tabindex="-1" /><a href="javascript:void(0);" class="pure_button pure_button_highlighted" id="login"><input type="hidden" name="loginxclicked" id="loginxclicked" value="" /><span><span>Login</span></span></a><script type="text/javascript">
+try {(function() {
+new pure.Button({'element':'login','submit':true,'disabled':false,'name':'submit'});
+})();} catch (e) {if (window['atira']) {atira.handleException(e);}}
+</script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pure_login_info">An <a target="_blank" href="http://www.elsevier.com/online-tools/research-intelligence"><span>Elsevier</span></a> product
+                                </div>
+                            </div>
+                            <div style="clear: both;"></div></div>
+					</div><input type="hidden" id="loginForm:csrf_token" name="csrf_token" value="7a8a1295abf8edd6bc26098b01df903dfbd12653" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="6748407361417899932:6890715904350452059" autocomplete="off" />
+</form>
+		
+			</td></tr>
+		</table>
+		<script type="text/javascript">
+			atira.onReady(function() {
+				var username = pure.get('username');
+				var password = pure.get('password');
+				var submit = pure.get('submit');
+				username.setAllowDefaultSubmit(true);
+				password.setAllowDefaultSubmit(true);
+				submit.setDefault(true);
+				username.focus();
+				pure.login.keepAlive();
+			});
+		</script>
+<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-30376967-1', { 'cookieDomain': document.location.hostname });ga('set', 'anonymizeIp', true);ga('send', 'pageview');</script>
+	
+	</body>
+</html>
