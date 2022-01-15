@@ -4,7 +4,6 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
 1. **Terziev, M**, Tezdogan, T & Incecik, A 2022, 'Scale effects and full-scale ship hydrodynamics: a review', Ocean Engineering, vol. 245, 110496. https://doi.org/10.1016/j.oceaneng.2021.110496
 2. Jiao, J, Huang, S, Tezdogan, T, **Terziev, M** & Guedes Soares, C 2021, 'Slamming and green water loads on a ship sailing in regular waves predicted by a coupled CFD–FEA approach', Ocean Engineering, vol. 241, 110107. https://doi.org/10.1016/j.oceaneng.2021.110107
 3. **Terziev, M**, Tezdogan, T, Demirel, YK, Villa, D, Mizzi, S & Incecik, A 2021, 'Exploring the effects of speed and scale on a ship's form factor using CFD', International Journal of Naval Architecture and Ocean Engineering, vol. 13, pp. 147-162. https://doi.org/10.1016/j.ijnaoe.2020.12.002
