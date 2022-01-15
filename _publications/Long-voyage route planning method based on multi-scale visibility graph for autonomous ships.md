@@ -6,7 +6,7 @@ excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2021-02-15
 venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2021.108583'
-citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
+citation: 'Wu, G., Atilla, I., Tahsin, T., Terziev, M. and Wang, L., 2021. Long-voyage route planning method based on multi-scale visibility graph for autonomous ships. Ocean Engineering, 219, p.108242.'
 ---
 
 ### Abstract
