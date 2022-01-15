@@ -6,7 +6,7 @@ excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2020-05-27
 venue: 'Ships and Offshore Structures'
 paperurl: 'https://doi.org/10.1080/17445302.2019.1661625'
-citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2020. Application of eddy-viscosity turbulence models to problems in ship hydrodynamics. _Ships and Offshore Structures_, _15_(5), pp.511-534.'
+citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2020. Application of eddy-viscosity turbulence models to problems in ship hydrodynamics. Ships and Offshore Structures, 15(5), pp.511-534.'
 ---
 
 ### Abstract
