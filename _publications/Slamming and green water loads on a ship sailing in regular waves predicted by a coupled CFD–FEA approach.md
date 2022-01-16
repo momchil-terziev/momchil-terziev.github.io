@@ -6,7 +6,7 @@ excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2021-12-01
 venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2021.110107'
-citation: 'Jiao, J., Huang, S., Tezdogan, T., Terziev, M. and Soares, C.G., 2021. Slamming and green water loads on a ship sailing in regular waves predicted by a coupled CFD–FEA approach. _Ocean Engineering_, _241_, p.110107.'
+citation: 'Jiao, J., Huang, S., Tezdogan, T., Terziev, M. and Soares, C.G., 2021. Slamming and green water loads on a ship sailing in regular waves predicted by a coupled CFD–FEA approach. Ocean Engineering, 241, p.110107.'
 ---
 
 ### Abstract
