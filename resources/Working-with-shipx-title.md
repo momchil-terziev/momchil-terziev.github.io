@@ -1,6 +1,5 @@
             
 ---
-
 ## Purpose of this webpage
 
 The purpose of this page is to help students working with ShipX. The content is updated based on the problems students identify, specifically with importing geometries and removing errors from hull sections. With time, students have also contributed to this document by identifying problems and solutions, for which they have my thanks. If you have any questions, require further help, or have identified a mistake/discontinued software version etc., please [email me](mailto:momchil.terziev@strath.ac.uk)
