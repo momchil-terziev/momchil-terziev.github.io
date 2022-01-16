@@ -28,7 +28,7 @@ Postdoctoral researcher at the Faculty of Engineering
 
 [1. Exporting geometries from Maxsurf 2](https://momchil-terziev.github.io/resources/exporting-geometries-from-maxsurf)
 
-[2. Working with .dxf files in ShipX.. 3](#_Toc88664730)
+[2. Working with .dxf files in ShipX.. 3](https://momchil-terziev.github.io/resources/working-with-dxf-files.md)
 
 [2.1 Monohulls. 3](#_Toc88664731)
 
@@ -41,14 +41,3 @@ Postdoctoral researcher at the Faculty of Engineering
   
 
 
-## 3. Importing from Rhino and AutoCAD
-
-A good example of what the geometry should look like when using a design from Rhino or AutoCAD is given below:
-
-![](https://momchil-terziev.github.io/files/clip_image045.png)
-
-**_Key points:_**
-
-· The geometry is comprised of lines; there are no surfaces or rogue points.
-· No point on the geometry is below _z_ = 0. If this is the case for your design, you must elevate the stations above _z_ = 0.
-· The stations are not closed: there is no line connecting the tops of stations from port to starboard.
