@@ -1,8 +1,4 @@
----
-title: "Shipx guides title page"
-collection: r
-permalink: /r/Working-with-shipx-title
----            
+
 ---
 ## Purpose of this webpage
 
