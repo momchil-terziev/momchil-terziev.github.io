@@ -9,7 +9,7 @@ If you are learning how to use ShipX’s motions and added resistance features, 
  - [Learning ShipX's added resistance feature](https://web.microsoftstream.com/video/ec0c487c-2a98-4d09-84a9-19b51ece039f)
  - [Learning ShipX's motions feature](https://web.microsoftstream.com/video/507c67ab-6e16-4269-86e4-af7c3d235354)
 
-## **Contents**
+## **Guides**
 
  - [Exporting geometries from Maxsurf](https://momchil-terziev.github.io/resources/exporting-geometries-from-maxsurf)
  - [Importing from Rhino and AutoCAD](https://momchil-terziev.github.io/resources/importing-from-rhino-autocad)
