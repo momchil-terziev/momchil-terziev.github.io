@@ -3,7 +3,6 @@ layout: archive
 title: "Working with ShipX: working with .dxf files"
 ---
 ---
-# Working with .dxf files in ShipX
 
 ### Monohulls
 
