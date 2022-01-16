@@ -50,7 +50,7 @@ Using the display settings, remove as much of the geometry, axes, annotations, e
 
 Click on the isometric view window and export your geometry as a .dxf (AutoCAD file) in 3D without scaling (1:1). You can import this directly into ShipX.
 
- ![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+ ![](https://momchil-terziev.github.io/files/clip_image004.jpg)
 
 ## 2. Working with .dxf files in ShipX
 
@@ -58,42 +58,41 @@ Click on the isometric view window and export your geometry as a .dxf (AutoCAD f
 
 In ShipX, set your loading condition (draught is critical) and visualise your lines plan by clicking on the Hull sections menu. Set your radii of gyration and run a Data Check – this will tell you where the problem is. See for example:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![](https://momchil-terziev.github.io/files/clip_image006.png)
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+![](https://momchil-terziev.github.io/files/clip_image008.jpg)
 
 There are two things that go wrong at this stage 99% of the time. The first is the radii of gyration. The data check will fail if the first 3 fields for radii of gyration not filled in. “R64” – the coupled radius of gyration in pitch-roll can be left as 0 usually. If the data check fails because of this, you can put a some number in – it won’t affect the results much regardless.
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
+![](https://momchil-terziev.github.io/files/clip_image010.jpg)
 
 The second thing that tends to go wrong is with the order of points, making up each section or the presence of  invalid sections. You can get an indication of which problem the data check runs into by:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
+![](https://momchil-terziev.github.io/files/clip_image012.png)
 
 Then if you scroll up in the log you will see the issue as shown below:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)
+![](https://momchil-terziev.github.io/files/clip_image014.jpg)
 
 In this case, there is a completely submerged section. If you go to Edit Stations you can see that the 94th station is problematic. Remember that ShipX uses a linear frequency-domain theory which requires surface piercing geometries (that is, crossing the waterline). Stations that do not cross the waterline are not admissible and cannot be used to run a calculation. This applies to stations that are fully dry, or fully wet. In this case there are quite a lot of issues with the geometry:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)
+![](https://momchil-terziev.github.io/files/clip_image016.jpg)
 
 The circled point extends beyond the symmetry line and has to be removed. In some cases it might be easier to simply delete the section.
 
 There are also some strange sections above that will cause errors after section 94 is fixed:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image018.jpg)
+![](https://momchil-terziev.github.io/files/clip_image018.jpg)
 
 Notice how the top of the section is connected to the bottom of the section – this is not a valid input because ShipX needs to calculate the underwater area of each section. If this section is left as it is at the moment, the area will be either invalid or negative. To fix this, expand the node of the section as shown in the figure above and scroll down until you find the culprit. This will be either the first or last point. You can also see in this figure that at the stern there are a few sections that are not crossing the waterline. This means that they will give a 0 or infinite area (depending on the numerical algorithm used for integration). I would try to leave as many of them in, but if the data check keeps coming back with errors, then you’ll have to delete them. By removing them, you’d have modified the ship geometry, so it is important to ensure that you length, beam, block coefficient, etc. match what Maxsurf/NAPA tells you. This is what the above section should look like when edited (I removed the last two points). However, there are other sections that will need to be edited in the same way.
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)
+![](https://momchil-terziev.github.io/files/clip_image020.jpg)
 
 Repeat this process and run Data checks regularly. Make sure you save your progress in the above window by clicking on Apply/Ok frequently and always before closing the window.
 
 Another potential problem comes about due to the ordering of points. The points must be arranged so that the point at _z_ = max is also the point with _y_ = max. An example of when this goes wrong is given below:
 
-![Chart
-Description automatically generated with medium confidence](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image021.png)
+![](https://momchil-terziev.github.io/files/clip_image021.png)
 
 This station satisfies the condition that it must cross the waterline, but the point with the highest _z_ coordinate does not have the highest _y_ coordinate. So ShipX is failing the data check. See the 3rd figure in the following section for a description of how points should be arranged to prevent the failed data check (page 9). To fix this, try creating a plane in Rhino/AutoCAD coincident with the waterline or ~1mm higher than the waterline and delete everything above this plane. Make sure any sinkage and trim effects you want to investigate, including effects of different draughts are modelled separately. 
 
@@ -101,15 +100,16 @@ This station satisfies the condition that it must cross the waterline, but the p
 
 Firstly, ensure you have told ShipX it is looking at a catamaran:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image023.jpg)
+![](https://momchil-terziev.github.io/files/clip_image023.jpg)
 
-Otherwise, ShipX will refuse to process your hull correctly: ![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image025.png)
+Otherwise, ShipX will refuse to process your hull correctly: 
+            ![](https://momchil-terziev.github.io/files/clip_image025.png)
 
-Remember the beam of a catamaran in ShipX is ![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image027.png) the beam of a demihull.
+Remember the beam of a catamaran in ShipX is ![](https://momchil-terziev.github.io/files/clip_image027.png) the beam of a demihull.
 
 Importing catamaran geometries is associated with many of the same problems explained above (R44 etc.). There are additional considerations one must take when dealing with catamarans. The same rule with regards to the ascending order of points making up each station apply. This is illustrated in the manual as shown in the following figure.
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image029.jpg)
+![](https://momchil-terziev.github.io/files/clip_image029.jpg)
 
 **_Key points:_**
 
@@ -123,7 +123,7 @@ When importing a geometry, you should make sure your catamaran design satisfies 
 
 **_Correct set up:_**
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image031.jpg)
+![](https://momchil-terziev.github.io/files/clip_image031.jpg)
 
 The slope of the line connecting the station to the centreline is irrelevant because it is
 
@@ -131,9 +131,9 @@ above the waterline. The waterline crosses the highlighted station twice in this
 
 **_Incorrect set up:_**
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image033.png) and the related error output:
+![](https://momchil-terziev.github.io/files/clip_image033.png) and the related error output:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image035.png)
+![](https://momchil-terziev.github.io/files/clip_image035.png)
 
 In the case above:
 
@@ -142,9 +142,9 @@ In the case above:
 
 Other examples of software misinterpreting the information:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image037.jpg)
+![](https://momchil-terziev.github.io/files/clip_image037.jpg)
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image039.jpg)
+![](https://momchil-terziev.github.io/files/clip_image039.jpg)
 
 In the two examples above, the imported lines were not specified properly.
 
@@ -154,11 +154,11 @@ In the two examples above, the imported lines were not specified properly.
 
 In some cases, ShipX reports negative values of physical quantities that cannot be negative. For example, the block coefficient, waterplane area coefficient and midsection coefficient are all negative in the example below. The beam of the ship is also zero. This might be caused by a variety of reasons.
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image041.png)
+![](https://momchil-terziev.github.io/files/clip_image041.png)
 
 In some cases, the your .dxf file might import points that do not belong to a section. This is illustrated below:
 
-![](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image043.png)  
+![](https://momchil-terziev.github.io/files/clip_image043.png)  
 
 The highlighted point is a section in on its own. This is inadmissible in ShipX, so you must delete this. Multiple points might be on top of each other, all of which should be removed for the data check to be successful. 
 
@@ -174,8 +174,7 @@ Look at the 3D view of the ship. It will not display perfectly, but if you don�
 
 A good example of what the geometry should look like when using a design from Rhino or AutoCAD is given below:
 
-![Graphical user interface, chart
-Description automatically generated](file:///C:/Users/mterz/AppData/Local/Temp/msohtmlclip1/01/clip_image045.png)
+![](https://momchil-terziev.github.io/files/clip_image045.png)
 
 **_Key points:_**
 
