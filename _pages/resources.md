@@ -1,13 +1,9 @@
 ---
-permalink: /
+layout: archive
 title: "Resources"
-excerpt: "Resources"
+permalink: /resources/
 author_profile: true
-redirect_from: 
-  - /resources/
-  - /resources.html
 ---
-
 This webpage will be filled with guides and tutorials
 
 - [ShipX tutorials](momchil-terziev.github.io/resources/Working-with-shipx-title)
