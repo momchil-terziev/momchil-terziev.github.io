@@ -1,13 +1,3 @@
----
-layout: archive
-title: "Resources"
-permalink: /resources/
-author_profile: true
----
+This webpage will be filled with guides and tutorials
 
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+- [ShipX](momchil-terziev.github.io/resources/Working-with-shipx-title)
