@@ -3,7 +3,6 @@ layout: archive
 title: "Working with ShipX: importing from Rhino or AutoCAD"
 ---
 ---
-# Importing from Rhino and AutoCAD
 
 A good example of what the geometry should look like when using a design from Rhino or AutoCAD is given below:
 
