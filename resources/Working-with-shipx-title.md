@@ -1,4 +1,6 @@
-
+---
+layout: archive
+title: "Working with ShipX"
 ---
 ## Purpose of this webpage
 
