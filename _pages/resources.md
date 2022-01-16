@@ -7,4 +7,4 @@ author_profile: true
 
 This webpage will be filled with guides and tutorials
 
-- [ShipX tutorials](Working-with-shipx-title/)
+- [ShipX](/resource/Working-with-shipx-title)
