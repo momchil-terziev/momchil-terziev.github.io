@@ -7,4 +7,4 @@ author_profile: true
 
 This webpage will be filled with guides and tutorials
 
-- [ShipX](/resources/Working-with-shipx-title)
+- [ShipX](https://momchil-terziev.github.io/resources/Working-with-shipx-title)
