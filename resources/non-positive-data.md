@@ -1,4 +1,8 @@
 ---
+layout: archive
+title: "Working with ShipX:fixing non-positive data"
+---
+---
 # Fixing non-positive coefficients, lengths, and volumes
 
 In some cases, ShipX reports negative values of physical quantities that cannot be negative. For example, the block coefficient, waterplane area coefficient and midsection coefficient are all negative in the example below. The beam of the ship is also zero. This might be caused by a variety of reasons.
