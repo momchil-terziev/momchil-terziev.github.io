@@ -1,4 +1,8 @@
 ---
+layout: archive
+title: "Working with ShipX: exporting from Maxsurf"
+---
+---
 # Exporting geometries from Maxsurf
 
 Create new sections from the Data menu – the number and distribution should be enough to describe your geometry accurately, but not too many to overload ShipX. I would avoid using more than 100.
