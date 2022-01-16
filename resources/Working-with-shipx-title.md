@@ -1,7 +1,7 @@
 ---
 title: "Shipx guides title page"
-collection: resources
-permalink: /resource/Working-with-shipx-title
+collection: r
+permalink: /r/Working-with-shipx-title
 ---            
 ---
 ## Purpose of this webpage
