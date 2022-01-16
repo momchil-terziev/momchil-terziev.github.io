@@ -23,9 +23,9 @@ Postdoctoral researcher at the Faculty of Engineering
 
 ### **Contents**
 
- - [Exporting geometries from Maxsurf 2](https://momchil-terziev.github.io/resources/exporting-geometries-from-maxsurf)
- - [Importing from Rhino and AutoCAD.. 14](https://momchil-terziev.github.io/resources/importing-from-rhino-autocad)
- - [Working with .dxf files in ShipX.. 3](https://momchil-terziev.github.io/resources/working-with-dxf-files)
+ - [Exporting geometries from Maxsurf](https://momchil-terziev.github.io/resources/exporting-geometries-from-maxsurf)
+ - [Importing from Rhino and AutoCAD](https://momchil-terziev.github.io/resources/importing-from-rhino-autocad)
+ - [Working with .dxf files in ShipX](https://momchil-terziev.github.io/resources/working-with-dxf-files)
  - [Fixing non-positive volumes, lengths, coefficients](https://momchil-terziev.github.io/resources/non-positive-data)
 
 
