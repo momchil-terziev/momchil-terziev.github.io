@@ -13,7 +13,7 @@ citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2021. Modelling the hydrod
 
 Shallow water studies of ship hydrodynamics typically examine a single, constant underwater canal cross-section at a time. In practice, the underwater cross-sectional area and shape of the waterway is rarely maintained constant over long distances. This study presents an attempt to quantify the effects of an abruptly varying water depth by numerically modelling such a condition using CFD. The results show that waves propagate and refract in the numerical towing tank in a physically consistent manner showing less than 0.1% error in the dissipation of a solitary wave when compared to analytical relations. A strong boundary layer is formed on the canal bottom almost as soon as the ship enters the shallower region. The resistance increase, resulting from the depth change is up to approximately 226% of the initial value near critical speeds.
 
-### Supplementary data
+### Supplementary materials
 #### Videos
  1. [A ship passing over a reduction in the water depth](https://youtu.be/PdnT8YNqz6s)
 
