@@ -15,4 +15,8 @@ Shallow water studies of ship hydrodynamics typically examine a single, constant
 
 [![A ship moving at a speed equivalent to 57% of the wave speed in a canal](momchil-terziev.github.io/files/Copy_of_Free-surface_coarsetimestep_image_00001.jpg)](https://youtu.be/bKAjoV5E0mw "A ship moving at a speed equivalent to 57% of the wave speed in a canal")
 
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MUQfKFzIOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+```
 [Download a free copy here](momchil-terziev.github.io/files/ momchil-terziev.github.io/files/Terziev_etal_SOS_2020_Modelling_the_hydrodynamic_effect_of_abrupt_water_depth_changes.pdf)
