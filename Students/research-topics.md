@@ -8,6 +8,8 @@ a^[as]
 a[^as]
 
 
+a[^ as]
+
  **1.** **The fully non-linear viscous resistance of an accelerating ship in deep/shallow waters**
 Several potential flow methods^[[Li, M., Yuan, Z.M. and Yeung, R.W., 2020, August. Unsteady Wave-Making Resistance of an Accelerating Ship. In _International Conference on Offshore Mechanics and Arctic Engineering_ (Vol. 84379, p. V06AT06A020). American Society of Mechanical Engineers.](https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2020/V06AT06A020/1092846?casa_token=uGwZhqV7QbwAAAAA:zfaRsB9bi2lKUs81_crKH8Qa0wIuQEddfh9Uw7kUb8uG9dA09x3-Ex1sUQfH3LFK18OYX0e7)]^[[Doctors, L.J., Day, A.H. and Clelland, D., 2008. Unsteady effects during resistance tests on a ship model in a towing tank. _Journal of ship research_, _52_(04), pp.263-273.](https://onepetro.org/JSR/article-abstract/52/04/263/175054/Unsteady-Effects-During-Resistance-Tests-on-a-Ship)]^[[Calisal, S., 1977. Effect of initial acceleration on ship wave pattern and wake survey methods. _Journal of Ship Research_, _21_(04), pp.239-247.](https://onepetro.org/JSR/article-abstract/21/04/239/175494/Effect-of-Initial-Acceleration-on-Ship-Wave)] have been devised to predict the resistance of a vessel when accelerating. However, these methods ignore the action of viscosity, meaning that acceleration effects on the viscous pressure resistance and friction resistance are not accounted for. Moreover, boundary layer interactions with the wave system cannot be modelled using potential flow approaches. Within this project, an approach will be used to accurately model the flow around an accelerating ship in deep and/or shallow waters.
 
