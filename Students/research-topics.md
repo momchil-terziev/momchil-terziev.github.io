@@ -7,7 +7,7 @@
  **1.** **The fully non-linear viscous resistance of an accelerating ship in deep/shallow waters**
 Several potential flow methods [^1] [^2] [^3] have been devised to predict the resistance of a vessel when accelerating. However, these methods ignore the action of viscosity, meaning that acceleration effects on the viscous pressure resistance and friction resistance are not accounted for. Moreover, boundary layer interactions with the wave system cannot be modelled using potential flow approaches. Within this project, an approach will be used to accurately model the flow around an accelerating ship in deep and/or shallow waters.
 
-**2.** **The effect of flow stratification on ship performance**
+**2.** **The effect of flow stratification on ship performance** [**_taken up_**]
 When ships operate in certain areas, the sea or ocean may stratify into distinct layers of fresh and salt water. This is sometimes described as the [dead water](https://en.wikipedia.org/wiki/Dead_water) phenomenon [^4] [^5]  and is most frequently observed as a result of glacial melting. When a ship passes through such an area, waves are created not only at the air-water interface, but also at the fresh-salt water interface, modifying ship resistance and wavemaking. This area has been examined in depth by a large number of studies using potential or approximate theories, but not with CFD. Therefore, the effects of a second interface (air/water and fresh water/salt water) is yet unknown. Within this project, the location of the interface will be varied along with the ship speed to predict its effect on wavemaking, resistance, and turbulent wake.
 
 **3.** **_A posteriori_ discretisation uncertainty estimation in CFD**
