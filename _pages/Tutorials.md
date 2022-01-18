@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 This webpage will be populated with guides and tutorials
-#### ShipX
+### ShipX
 
 [Video tutorial](https://momchil-terziev.github.io/resources/Working-with-shipx-title) | [PDF tutorial]()
 ------------ | ------------
