@@ -8,7 +8,7 @@ The purpose of this page is to help students working with ShipX. The content is 
 
 If you are learning how to use ShipX’s motions and added resistance features, you can watch the step-by-step video tutorials I prepared for 5th year students (note that you may have to use yout Strathclyde credentials):
 
- - Learning ShipX's added resistance feature: [Video](https://web.microsoftstream.com/video/ec0c487c-2a98-4d09-84a9-19b51ece039f) and [PDF]()
+ - Learning ShipX's added resistance feature: [Video](https://web.microsoftstream.com/video/ec0c487c-2a98-4d09-84a9-19b51ece039f) and [PDF](/files/ShipX tutorial NM529NM835.pdf)
  - [Learning ShipX's motions feature](https://web.microsoftstream.com/video/507c67ab-6e16-4269-86e4-af7c3d235354)
 
 ## **Guides**
