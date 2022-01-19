@@ -11,7 +11,7 @@ If you are learning how to use ShipX’s motions and added resistance features, 
  - Learning ShipX's motions feature: 
    - [Video on how to use ShipX](https://web.microsoftstream.com/video/8c8932ad-6f2c-4593-9026-07f28d40ea48)
    - [Video on how to set up a wave scatter diagram](https://web.microsoftstream.com/video/8337ccbb-7399-463a-b9c2-f01bf2d3fe66)
-   - [Link to wave scatter webpage](https://app.metoceanview.com/helm/#/)
+   - [Link to wave scatter diagram webpage](https://app.metoceanview.com/helm/#/)
    - [PDF tutorial (combined)](https://momchil-terziev.github.io/files/ShipX-tutorial-NM529NM835.pdf)
  - [Learning ShipX's added resistance feature](https://web.microsoftstream.com/video/ec0c487c-2a98-4d09-84a9-19b51ece039f)
 
