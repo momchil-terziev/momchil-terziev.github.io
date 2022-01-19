@@ -21,4 +21,4 @@ If you are learning how to use ShipX’s motions and added resistance features, 
  - [Working with .dxf files in ShipX](https://momchil-terziev.github.io/resources/working-with-dxf-files)
  - [Fixing non-positive volumes, lengths, coefficients](https://momchil-terziev.github.io/resources/non-positive-data)
 
-**Last update**: 16/01/22
+**Last update**: 19/01/22
