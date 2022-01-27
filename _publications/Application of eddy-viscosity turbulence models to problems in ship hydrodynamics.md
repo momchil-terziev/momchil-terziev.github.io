@@ -15,5 +15,5 @@ With the rapid advent of computational methods in all fields of engineering, sev
 
 ### Supplementary materials
  - Dataset: https://doi.org/10.15129/0650963a-1aea-4ecc-9611-79f7c551ddf2
- - 
+ 
 [Download a free copy here](http://momchil-terziev.github.io/files/Terziev_etal_SOS_2019_Application_of_eddy_viscosity_turbulence_models_to_problems_in_ship_hydrodynamics.pdf)
