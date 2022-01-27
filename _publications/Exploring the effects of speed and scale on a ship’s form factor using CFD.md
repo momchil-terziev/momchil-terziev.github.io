@@ -20,5 +20,7 @@ The problem of predicting a ship’s form factor and associated scale effects ha
 - Turbulence dependence is found to be of greater importance than any other parameter.
 - Results reveal a Froude number dependence at low speeds.
 
+### Supplementary material
+ - Dataset: https://doi.org/10.15129/177ff072-cd23-4762-9492-2f495a4879d3
 
 [Download a free copy here](momchil-terziev.github.io/files/ momchil-terziev.github.io/files/Terziev_etal_IJNAOC_2020_Exploring_the_effects_of_speed_and_scale_on_a_ships.pdf )
