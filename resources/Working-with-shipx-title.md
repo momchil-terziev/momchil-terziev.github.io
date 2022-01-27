@@ -28,4 +28,4 @@ If you are learning how to use ShipX’s motions and added resistance features, 
  - [Known issues when working with ShipX](https://momchil-terziev.github.io/resources/Known%20problems/)
 
  
-**Last update**: 19/01/22
+**Last update**: 27/01/22
