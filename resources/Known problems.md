@@ -1,11 +1,10 @@
 ---
-# Known problems with ShipX
 
-TOC
-{:toc}
-
+**On this page**
 * TOC
 {:toc}
+
+# Known problems with ShipX
 
 ## Issue 1: Plotting short-term statistics against peak period
 
