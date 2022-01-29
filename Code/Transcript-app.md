@@ -1,17 +1,21 @@
 ---
+---
+layout: archive
+title: "Transcript app"
+permalink: /Code/Transcript-app
+---
+---
+
+**On this page:**
+
+* TOC
+{:toc}
+
+
+| Type  | Description | Requirements | Link |
+| ---------- | ----------- | ------------ | ---- | 
+| **MATLAB app**  | A MATLAB app with a graphical user interface  | No coding or MATLAB background requirements. See the documentation below for details on how to install and run the app | (Download app)[https://momchil-terziev.github.io/Code/Transcript%20processing%20app.mlappinstall] |
+| **MATLAB function**  | A MATLAB function for those who prefer code. The function has identical functionality to the app  | Minimal coding requirements, see below for details       | (Download function)[https://momchil-terziev.github.io/Code/processTranscript.mlx] |
 
 ---
 
-```
-cd 'C:\Users\mterz\Downloads'
-a = readlines('Modified_AutoTranscript_NM529_NM835 ShipX tutorial_1.vtt'); % get the transcript
-a(1:12) =[]; %remove the first 12 lines
-% k = 1;
-b = a(1:6:end); % Keep every sixth line
-% for i = 1:6:length(a)
-%     b(k) = a(i);
-%     k = k+1;
-% end
-ff = fopen('note10.txt','w');
-fprintf(ff,'%s \n',b);
-```
