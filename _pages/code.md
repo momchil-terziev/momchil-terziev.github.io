@@ -32,5 +32,5 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 ## Planned code
 
 
-### Wave verification tool
+### Ship-generated waves verification tool
 * See the [this research topic](https://momchil-terziev.github.io/research-topics#8-development-of-a-wave-verification-tool-for-cfd-predictions)
