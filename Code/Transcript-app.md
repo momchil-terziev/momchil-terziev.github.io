@@ -27,6 +27,13 @@ At the time, I didn't know there is an online tool able to remove the additional
 | **MATLAB app**  | A MATLAB app with a graphical user interface  | No coding or MATLAB background requirements. See the documentation below for details on how to install and run the app | [Download app](https://momchil-terziev.github.io/Code/Transcript%20processing%20app.mlappinstall) | [How to install and use the app](https://momchil-terziev.github.io/Code/Transcript-app/#how-to-download-and-install-the-app) |
 | **MATLAB function**  | A MATLAB function for those who prefer code. The function has identical functionality to the app  | Minimal coding requirements, see below for details       | [Download function](https://momchil-terziev.github.io/Code/processTranscript.mlx) | [How to use the function]() |
 
+|Type | **MATLAB app**  | **MATLAB function**  |
+|----| --- | --- |
+| Description | A MATLAB app with a graphical user interface| A MATLAB function for those who prefer code. The function has identical functionality to the app |
+| Requirements | No coding or MATLAB background requirements. See the documentation below for details on how to install and run the app| Minimal coding requirements, see below for details|
+| Link | [Download app](https://momchil-terziev.github.io/Code/Transcript%20processing%20app.mlappinstall) | [Download function](https://momchil-terziev.github.io/Code/processTranscript.mlx) |
+| Instructions |  | [How to install and use the app](https://momchil-terziev.github.io/Code/Transcript-app/#how-to-download-and-install-the-app) | [How to use the function](https://momchil-terziev.github.io/Code/Transcript-app/#how-to-use-the-function) |
+
 # Instructions
 
 ## How to download and install the app
@@ -41,4 +48,5 @@ At the time, I didn't know there is an online tool able to remove the additional
 * **Step 6:** Name the output file, including the extension, for example, note1.txt
 * **Step 7:** Click 'Execute', and find your processed transcript
 
+## How to use the function
 
