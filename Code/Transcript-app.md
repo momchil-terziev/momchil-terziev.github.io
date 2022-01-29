@@ -14,7 +14,11 @@ title: "Transcript processing function and app"
 
 After I recorded some tutorials for students on MS Stream, I had to download the transcript. The transcript looked as shown below:
 
-[transcript example](/files/transcript-example.png)
+![transcript example](/files/transcript-example.png)
+
+However, after I downloaded the transcript file to supply alongside the video, the text contained a lot of unnecessary items:
+
+![transcript example 2](/files/transcript-example2.png)
 
 | Type  | Description | Requirements | Link |
 | ---------- | ----------- | ------------ | ---- | 
