@@ -19,7 +19,7 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 ### Discretisation uncertainty estimator for CFD
 - To be uploaded
 
-### MS Stream transcript processor
+## MS Stream transcript processor
 - [Find out more](/transcript-app)
   - Removes redundant text from transcripts as downloaded from MS Stream.
 
