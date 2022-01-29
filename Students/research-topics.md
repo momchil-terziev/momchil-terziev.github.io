@@ -1,34 +1,47 @@
-           
-# Research topics 
+---
+layout: archive
+title: "Research topics"
+---
+
+* TOC
+{:toc}
 
 
 ------
 
- **1.** **The fully non-linear viscous resistance of an accelerating ship in deep/shallow waters**
+# 1. The fully non-linear viscous resistance of an accelerating ship in deep/shallow waters
+
 Several potential flow methods [^1] [^2] [^3] have been devised to predict the resistance of a vessel when accelerating. However, these methods ignore the action of viscosity, meaning that acceleration effects on the viscous pressure resistance and friction resistance are not accounted for. Moreover, boundary layer interactions with the wave system cannot be modelled using potential flow approaches. Within this project, an approach will be used to accurately model the flow around an accelerating ship in deep and/or shallow waters.
 
-**2.** **The effect of flow stratification on ship performance** [**_taken up_**]
+# 2. ~~The effect of flow stratification on ship performance~~ [_taken up_]
+
 When ships operate in certain areas, the sea or ocean may stratify into distinct layers of fresh and salt water. This is sometimes described as the [dead water](https://en.wikipedia.org/wiki/Dead_water) phenomenon [^4] [^5]  and is most frequently observed as a result of glacial melting. When a ship passes through such an area, waves are created not only at the air-water interface, but also at the fresh-salt water interface, modifying ship resistance and wavemaking. This area has been examined in depth by a large number of studies using potential or approximate theories, but not with CFD. Therefore, the effects of a second interface (air/water and fresh water/salt water) is yet unknown. Within this project, the location of the interface will be varied along with the ship speed to predict its effect on wavemaking, resistance, and turbulent wake.
 
-**3.** **_A posteriori_ discretisation uncertainty estimation in CFD**
+# 3. _A posteriori_ discretisation uncertainty estimation in CFD
+
 When we model flow using CFD, the continuous governing equations (Navier-Stokes) are discretised in space (and sometimes in time). This creates errors in our solutions when compared to the exact (analytical) solution of the governing equations that can be difficult to quantify. The order of discretisation of the CFD solver is predicted to govern how this error is reduced according to the [Lax equivalence theorem](https://en.wikipedia.org/wiki/Lax_equivalence_theorem) . This is known as the order of accuracy[^6]. If the order of accuracy is 2 (as is usually the case), halving the mesh size must reduce the error by a factor of 4, if we reduce the grid size by a factor of 3, the error should reduce by a factor of 9, etc. However, it is frequently observed in practical applications that the so-called *observed* order of accuracy (i.e. what the simulation tells us) is far from the theoretical value. Recently, approaches have emerged that do not use the order of accuracy. Some methods impose a penalty for deviations from the formal order of accuracy, while others are able to predict the relative impact of deviating from the theoretical value. Within this project, simple steady-state (i.e. non-time dependent) simulations in Star-CCM+ of a flat plate and a ship will be used as benchmarks. Local ($C_f$) and global data ($C_F$ or $C_T$) from these simulations will be fed into new approaches to study the effect of a variable and fixed order of accuracy on the uncertainty estimate. *Some rudimentary programming background is desirable for this project in MATLAB ideally. This will be necessary in processing and visualising the data.*
 
-**4. Viscous scale effects on a propeller operating in open water**
+# 4. Viscous scale effects on a propeller operating in open water
+
 Scale effects arise due to inconsistencies in the Reynolds numbers of model and full-scale structures. Propellers rely heavily on  accurate modelling to predict performance, but operating entirely within a ship's boundary layer, where viscous effects dominate, mean they suffer scale effects. Modelling propeller performance at full-scale is not always feasible due to the large cell and time-step requirements, frequently limiting numerical models to model-scale. The induced scale effects as a result of this induce very large uncertainties in the operational profile and performance of energy saving devices such as propeller shrouds. It is therefore desirable to devise a method to investigate full-scale performance accurately without the need for excessive computational power. Within this project, the a propeller will not be scaled using traditional linear scaling (i.e. magnifying its dimension, although this can be done if time allows). Rather, the Reynolds number will be varied by changing the viscosity of water. This 'viscous scaling' approach has been demonstrated in deep [^7] [^8] and shallow water[^9] ship performance, but its applicability is unknown for propellers. 
 
-**5. Towards accurate virtual Prohaska tests**
+# 5. Towards accurate virtual Prohaska tests
+
 When predicting the resistance of a full-scale ship, one must have an estimate of the so-called form factor [^10] (1+k). The form factor is used to determine the full-scale resistance of a ship in conjunction with the wave resistance coefficient and frictional resistance coefficient. The latter two are determined at model-scale. Recent studies[^11] have shown that experimentally determined form factors by towing a ship at very low speeds (the Prohaska test) can suffer considerable uncertainty. Unfortunately, similar problems plague CFD predictions of the form factor at low speeds. While the sources of uncertainty in experiment (instrument resolution) and CFD are different, the net result is the same - inaccuracy in resistance extrapolation. Within this project, the hypothesis that turbulent-laminar boundary layer transition is the governing factor in numerical form factor prediction at low speeds will be tested. This is likely to be the case because turbulent CFD simulations assume the fluid is turbulent *everywhere*, whereas in reality, a significant proportion of the hull will be covered by a laminar boundary layer.
 
-**6. Application of hybrid scale resolved turbulence to ship aerodynamics**
+# 6. Application of hybrid scale resolved turbulence to ship aerodynamics
+
 A recently developed approach allows the hybrid modelling of turbulence in a highly flexible and robust manner. This includes the application of a two-equation eddy-viscosity turbulence model[^12] to model the boundary layer while a Large Eddy approach is automatically triggered depending on the grid and time step properties. In contrast to Detached Eddy Simulation, there are no interfaces between the two solution regions. Within this project, *k-ε* and *k-ω* models will be applied to a ship airwake case to investigate their performance. 
 
-**7. Predicting inland waterway erosion by vessels in the UK using CFD**
+# 7. Predicting inland waterway erosion by vessels in the UK using CFD
+
 Inland waterways, such as rivers and canals, require expensive maintenance due to sedimentation and erosion caused by the operation of vessels[^13]. The mechanism by which waterways are eroded due to vessel operation is thought to consist of three main aspects: 1. ship-generated wave-induced erosion (due to the flow velocity caused at the canal bottom and due to wave breaking); 2.  propeller scour; 3. return flow generated at the bottom and sides between a hull and canal[^14]. This project will examine the impact of return flow on the erosive potential of vessel operation. Firstly, the relative importance of free surface effects will be evaluated at representative speeds. Following this, simulations will be run to determine the effect of hull shape (simple rectangular cross-section vs. rounded shape). The erosive potential will be determined using the shear stress[^15] exerted on the canal bottom, velocity, or dynamic pressure signature. 
 
-**8. Development of a wave verification tool for CFD predictions**
+# 8. Development of a wave verification tool for CFD predictions
+
 Linear wave theory can be used to confirm the accuracy of wave predictions from CFD. This approach relies on sampling wave fields in CFD and comparing the produced wave number distributions. The output form this project would be ideally an open access tool for the verification of wave fields produced by any free surface piercing disturbance. _Some rudimentary programming background is desirable for this project in MATLAB ideally. This will be necessary in processing and visualising the data._
 
-#### ***References***
+# References
 
 [^1]: [Li, M., Yuan, Z.M. and Yeung, R.W., 2020, August. Unsteady Wave-Making Resistance of an Accelerating Ship. In _International Conference on Offshore Mechanics and Arctic Engineering_ (Vol. 84379, p. V06AT06A020). American Society of Mechanical Engineers.](https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2020/V06AT06A020/1092846?casa_token=uGwZhqV7QbwAAAAA:zfaRsB9bi2lKUs81_crKH8Qa0wIuQEddfh9Uw7kUb8uG9dA09x3-Ex1sUQfH3LFK18OYX0e7). 
 
