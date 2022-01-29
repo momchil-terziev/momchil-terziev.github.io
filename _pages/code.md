@@ -7,7 +7,7 @@ author_profile: true
 
 I use MATLAB to process data for my research. Occasionally, I also write code that I reuse extensively. I will share such code on this webpage.
 
-**On this page**
+**On this page:**
 * TOC
 {:toc}
 
