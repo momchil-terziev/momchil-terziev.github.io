@@ -28,7 +28,8 @@ At the time, I didn't know there is an online tool able to remove the additional
 | **MATLAB function**  | A MATLAB function for those who prefer code. The function has identical functionality to the app  | Minimal coding requirements, see below for details       | [Download function](https://momchil-terziev.github.io/Code/processTranscript.mlx) | [How to use the function](https://momchil-terziev.github.io/Code/Transcript-app/#how-to-use-the-function) |
 
 The function code is: 
-```
+
+```matlab
 function  processTranscript(path,inputfile,outputfile)
 
 cd(path) % Find the path
