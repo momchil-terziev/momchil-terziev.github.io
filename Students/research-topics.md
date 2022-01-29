@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Research topics"
+permalink: /research-topics
 ---
 
 **On this page:** 
