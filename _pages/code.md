@@ -5,7 +5,7 @@ permalink: /Code/
 author_profile: true
 ---
 
-I use MATLAB to process data for my research. Occasionally, I also write code that I reuse extensively. I will share such code on this webpage.
+I use MATLAB to process data for my research. Occasionally, I also write code that I reuse extensively. I will share such code on this webpage. All code and apps posted here require MATLAB to be installed on your machine.
 
 **On this page:**
 * TOC
