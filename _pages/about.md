@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a postdoctoral researcher within the Faculty of Engineering at the University of Strathclyde. My research interests include using Computational Fluid Dynamics to study ship hydrodynamics, such as scale effects and shallow or confined watter effects on ship performance. 
+Welcome! I am a postdoctoral researcher within the Faculty of Engineering at the University of Strathclyde. My research interests include using Computational Fluid Dynamics to study ship hydrodynamics, such as scale effects and shallow or confined water effects on ship performance. 
 
 
 **On this page:**
@@ -19,7 +19,7 @@ Welcome! I am a postdoctoral researcher within the Faculty of Engineering at the
 # Research interests
 
 All things CFD, but more specifically:
-- Scale effects, or discrepencies caused by dissimilarities in dimensionless groups
+- Scale effects, or discrepancies caused by dissimilarities in dimensionless groups
 - Shallow and confined water effects on ship hydrodynamics
 - Wavemaking 
 - Turbulence
@@ -31,5 +31,5 @@ I am always looking to collaborate on research, and would be delighted to discus
 
 # Students
 
-If you are a student you may wish to have a look at the [tutorials](/tutorials) section. If you are interested in my reserch, check out the [publications section](/publications).
+If you are a student you may wish to have a look at the [tutorials](/tutorials) section. If you are interested in my research, check out the [publications section](/publications).
 Alternatively, if you are in your 4th or 5th year and looking for a topic for your individual project, you can have a look at the [research topics](/research-topics) section.
