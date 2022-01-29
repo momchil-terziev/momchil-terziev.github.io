@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><meta name="generator" content="MATLAB 2020b"><title>Transcript processing function</title><style type="text/css">.rtcContent { padding: 30px; } .S0 { margin: 3px 10px 5px 4px; padding: 0px; line-height: 28.8px; min-height: 0px; white-space: pre-wrap; color: rgb(213, 80, 0); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 24px; font-weight: 400; text-align: left;  }
+.S1 { margin: 2px 10px 9px 4px; padding: 0px; line-height: 21px; min-height: 0px; white-space: pre-wrap; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 14px; font-weight: 400; text-align: left;  }
+.CodeBlock { background-color: #F7F7F7; margin: 10px 0 10px 0;}
+.S2 { border-left: 0.994318px solid rgb(233, 233, 233); border-right: 0.994318px solid rgb(233, 233, 233); border-top: 0.994318px solid rgb(233, 233, 233); border-bottom: 0px none rgb(0, 0, 0); border-radius: 4px 4px 0px 0px; padding: 6px 45px 0px 13px; line-height: 17.234px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S3 { border-left: 0.994318px solid rgb(233, 233, 233); border-right: 0.994318px solid rgb(233, 233, 233); border-top: 0px none rgb(0, 0, 0); border-bottom: 0px none rgb(0, 0, 0); border-radius: 0px; padding: 0px 45px 0px 13px; line-height: 17.234px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S4 { border-left: 0.994318px solid rgb(233, 233, 233); border-right: 0.994318px solid rgb(233, 233, 233); border-top: 0px none rgb(0, 0, 0); border-bottom: 0.994318px solid rgb(233, 233, 233); border-radius: 0px 0px 4px 4px; padding: 0px 45px 4px 13px; line-height: 17.234px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }</style></head><body><div class = rtcContent><h1  class = 'S0'><span>Transcript processing function</span></h1><div  class = 'S1'><span></span></div><div  class = 'S1'><span>A function to process transcripts from MS Stream. Typical transcripts, as downloaded from MS Stream contain a lot of unnecessary information. To remove the unnecessary information from the transcript and publish it as a standalone text, supply the path of the file as downloaded from MS Stream, its name, including any extensions such as .vtt or .txt, and the output filename (again including extensions such as .txt.</span></div><div  class = 'S1'><span> </span></div><div class="CodeBlock"><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(14, 0, 255);">function</span><span>  processTranscript(path,inputfile,outputfile)</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>cd(path) </span><span style="color: rgb(2, 128, 9);">% Find the path</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>a = readlines(inputfile); </span><span style="color: rgb(2, 128, 9);">% get the transcript</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span style="color: rgb(14, 0, 255);">if </span><span>strncmpi(a(12),</span><span style="color: rgb(170, 4, 249);">'00'</span><span>,2)==1 </span><span style="color: rgb(2, 128, 9);">%determine the starting point and the step</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>    start=12;</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>    step=6;</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span style="color: rgb(14, 0, 255);">else</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>    start=11;</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>    step=5;</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span style="color: rgb(14, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>a(1:start) =[];</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>b = a(1:step:end); </span><span style="color: rgb(2, 128, 9);">% Keep every sixth line</span></span></div></div><div class="inlineWrapper"><div  class = 'S3'><span style="white-space: pre;"><span>ff = fopen(outputfile,</span><span style="color: rgb(170, 4, 249);">'w'</span><span>);</span></span></div></div><div class="inlineWrapper"><div  class = 'S4'><span style="white-space: pre;"><span>fprintf(ff,</span><span style="color: rgb(170, 4, 249);">'%s \n'</span><span>,b);</span></span></div></div></div></div>
+<br>
+<!-- 
+##### SOURCE BEGIN #####
+function  processTranscript(path,inputfile,outputfile)
+%% PROCESSTRANSCRIPT Transcript processing function
+% 
+% 
+% A function to process transcripts from MS Stream. Typical transcripts, as 
+% downloaded from MS Stream contain a lot of unnecessary information. To remove 
+% the unnecessary information from the transcript and publish it as a standalone 
+% text, supply the path of the file as downloaded from MS Stream, its name, including 
+% any extensions such as .vtt or .txt, and the output filename (again including 
+% extensions such as .txt.
+% 
+% 
+cd(path) % Find the path
+a = readlines(inputfile); % get the transcript
+if strncmpi(a(12),'00',2)==1 %determine the starting point and the step
+    start=12;
+    step=6;
+else
+    start=11;
+    step=5;
+end
+a(1:start) =[];
+b = a(1:step:end); % Keep every sixth line
+ff = fopen(outputfile,'w');
+fprintf(ff,'%s \n',b);
+##### SOURCE END #####
+--></body></html>
