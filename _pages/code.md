@@ -13,7 +13,7 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 
 ---
 
-## External flow grid set-up for CFD
+## External flow near-wall grid set-up for CFD
 - To be uploaded
 
 ## Discretisation uncertainty estimator for CFD
