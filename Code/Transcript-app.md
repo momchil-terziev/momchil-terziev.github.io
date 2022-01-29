@@ -28,7 +28,8 @@ At the time, I didn't know there is an online tool able to remove the additional
 | **MATLAB function**  | A MATLAB function for those who prefer code. The function has identical functionality to the app  | Minimal coding requirements, see below for details       | [Download function](https://momchil-terziev.github.io/Code/processTranscript.mlx) | [How to use the function]() |
 
 The function code is: 
-`function  processTranscript(path,inputfile,outputfile)
+```
+function  processTranscript(path,inputfile,outputfile)
 
 cd(path) % Find the path
 a = readlines(inputfile); % get the transcript
@@ -43,6 +44,7 @@ a(1:start) =[];
 b = a(1:step:end); % Keep every "stept"th line
 ff = fopen(outputfile,'w'); % Create the file
 fprintf(ff,'%s \n',b); % Write the file
+```
 
 # Instructions
 
