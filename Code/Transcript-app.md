@@ -27,6 +27,23 @@ At the time, I didn't know there is an online tool able to remove the additional
 | **MATLAB app**  | A MATLAB app with a graphical user interface  | No coding or MATLAB background requirements. See the documentation below for details on how to install and run the app | [Download app](https://momchil-terziev.github.io/Code/Transcript%20processing%20app.mlappinstall) | [How to install and use the app](https://momchil-terziev.github.io/Code/Transcript-app/#how-to-download-and-install-the-app) |
 | **MATLAB function**  | A MATLAB function for those who prefer code. The function has identical functionality to the app  | Minimal coding requirements, see below for details       | [Download function](https://momchil-terziev.github.io/Code/processTranscript.mlx) | [How to use the function]() |
 
+The function code is: 
+`function  processTranscript(path,inputfile,outputfile)
+
+cd(path) % Find the path
+a = readlines(inputfile); % get the transcript
+if strncmpi(a(12),'00',2)==1 % determine the starting point and the step
+    start=12;
+    step=6;
+else
+    start=11;
+    step=5;
+end
+a(1:start) =[];
+b = a(1:step:end); % Keep every "stept"th line
+ff = fopen(outputfile,'w'); % Create the file
+fprintf(ff,'%s \n',b); % Write the file
+
 # Instructions
 
 ## How to download and install the app
