@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a postdoctoral researcher within the Faculty of Engineering at the University of Strathclyde. My research interests include using Computational Fluid Dynamics to study ship hydrodynamics, such as scale effects and shallow or confined watter effects on ship performance. If you have any questions or would like to get in touch, you can [email me](mailto:momchil.terziev@strath.ac.uk)
+Welcome! I am a postdoctoral researcher within the Faculty of Engineering at the University of Strathclyde. My research interests include using Computational Fluid Dynamics to study ship hydrodynamics, such as scale effects and shallow or confined watter effects on ship performance. 
 
 
 **On this page:**
@@ -27,7 +27,7 @@ All things CFD, but more specifically:
 
 # Collaboration
 
-I am always looking to collaborate on research, and would be delighted to discuss potential collaborations. If you have any questions about my existing work, need access to any of my research, or would like to discuss ideas you can get in touch by [emailing me](mailto:momchil.terziev@strath.ac.uk). You can also get in touch informally through [twitter](https://twitter.com/m_terziev)
+I am always looking to collaborate on research, and would be delighted to discuss potential collaborations. If you have any questions about my existing work, need access to any of my research, or would like to discuss ideas you can get in touch by [emailing me](mailto:momchil.terziev@strath.ac.uk). You can also get in touch informally through [twitter](https://twitter.com/m_terziev).
 
 # Students
 
