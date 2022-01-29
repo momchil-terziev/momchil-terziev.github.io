@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Transcript app"
-permalink: /Code/Transcript-app
+permalink: Code/Transcript-app
 ---
 
 ---
