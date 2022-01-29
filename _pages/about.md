@@ -31,5 +31,5 @@ I am always looking to collaborate on research, and would be delighted to discus
 
 # Students
 
-If you are a student you may wish to have a look at the [tutorials/tutorials] section. If you are interested in my reserch, check out the [publications section](/publications).
+If you are a student you may wish to have a look at the [tutorials](/tutorials) section. If you are interested in my reserch, check out the [publications section](/publications).
 Alternatively, if you are in your 4th or 5th year and looking for a topic for your individual project, you can have a look at the [research topics](/research-topics) section.
