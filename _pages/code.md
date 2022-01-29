@@ -20,7 +20,7 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 - To be uploaded
 
 ## MS Stream transctipt processing
-Removes redundant text from transcripts as downloaded from MS Stream.
+- Removes redundant text from transcripts as downloaded from MS Stream.
 
 | Type  | Description | Requirements | Link | Instructions |
 | ---------- | ----------- | ------------ | ---- | ----- |
