@@ -34,14 +34,14 @@ function  processTranscript(path,inputfile,outputfile)
 
 cd(path) % Find the path
 a = readlines(inputfile); % get the transcript
-if strncmpi(a(12),'00',2)==1 % determine the starting point and the step
+if strncmpi(a(12),'00',2) == 1 % determine the starting point and the step
     start=12;
     step=6;
 else
     start=11;
     step=5;
 end
-a(1:start) =[];
+a(1:start) = [];
 b = a(1:step:end); % Keep every "stept"th line
 ff = fopen(outputfile,'w'); % Create the file
 fprintf(ff,'%s \n',b); % Write the file
