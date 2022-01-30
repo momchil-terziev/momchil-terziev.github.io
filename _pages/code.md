@@ -27,7 +27,7 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 ---
 
 ## MS Stream transcript processor
-- [Documentation and download](/Code/Transcript-app/)
+- [Documentation and download](https://momchil-terziev.github.io/Code/Transcript-app/)
   - Removes redundant text from transcripts as downloaded from MS Stream.
 
 | Type  | Description | Requirements | Link | Instructions |
