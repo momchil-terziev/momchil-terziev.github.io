@@ -17,4 +17,4 @@ Shallow water studies of ship hydrodynamics typically examine a single, constant
 #### Videos
  1. [A ship passing over a reduction in the water depth](https://youtu.be/PdnT8YNqz6s)
 
-[Download a free copy here](momchil-terziev.github.io/files/ momchil-terziev.github.io/files/Terziev_etal_SOS_2020_Modelling_the_hydrodynamic_effect_of_abrupt_water_depth_changes.pdf)
+[Download a free copy here](momchil-terziev.github.io/files/Terziev_etal_SOS_2020_Modelling_the_hydrodynamic_effect_of_abrupt_water_depth_changes.pdf)
