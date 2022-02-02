@@ -25,24 +25,6 @@ The following methods can be used at present:
 | Granville | $$C_f=0.0776/(log10(Re)-1.88)^2+60/Re |
 
 
-
-
-```  if isequal(app.FrictionlineDropDown.Value,'ITTC')
-                Cf = 0.075./(log10(max(Re))-2)^2;
-            elseif isequal(app.FrictionlineDropDown.Value,'Prandtl')
-                Cf = 0.074*Re.^(-1/5);
-            elseif isequal(app.FrictionlineDropDown.Value,'Telfer')
-                Cf = 0.34*Re^(-1/3)+0.0012;
-            elseif isequal(app.FrictionlineDropDown.Value,'Landweber')
-                Cf = 0.0816*(log10(Re)-1.703)^(-2);
-            elseif isequal(app.FrictionlineDropDown.Value,'Hughes')
-                Cf = 0.067*(log10(Re)-2)^(-2);
-            elseif isequal(app.FrictionlineDropDown.Value,'Gadd')
-                Cf = 0.0113.*(log10(Re)-3.7)^(-1.15);
-            elseif isequal(app.FrictionlineDropDown.Value,'Granville')```
-
-
-
 Once the line to calculate $$C_F$$ is chosen, the shear stress is predicted as $$\tau_w=C_f\rho U^2/2$$. Then, the first layer thickness is predicted using the desired $$y^+$$ through $$dy=y^+\ni/sqrt(t_w/rho)$$, where $$\ni$$ is the kinematic viscosity. We then find $$n$$ layers
 
 After $$dy$$ is known, we find how many layers we can fit in the fraction of the boundary layer $$\delta=
