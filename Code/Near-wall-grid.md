@@ -47,8 +47,8 @@ Properties of water to input into the app:
 
 | Property | Fresh water | Salt water | Units |
 | -------- |-------------| ---------- | ----- |
-| Density  | 997.561 | 1025 | $$kg/m^3$$ |
-| Dynamic viscosity | 8.8871E-4  |  | $$Pa-s$$ |
+| Density  | 997.561 | 1025 |   $$kg/m^3$$   |
+| Dynamic viscosity | 8.8871E-4  |  |   $$Pa-s$$   |
 
 ## Download and install
 The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFDyplusapp.mlappinstall), and installed by navigating to the Apps ribbon.
