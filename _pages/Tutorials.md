@@ -5,8 +5,8 @@ permalink: /tutorials/
 author_profile: true
 ---
 
-**On this page:**
-* TOC
+**Contents:**
+ TOC
 {:toc}
 
 
