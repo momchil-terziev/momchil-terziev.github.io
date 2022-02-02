@@ -17,7 +17,7 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 
 ### Near-wall grid set-up for CFD
 - [Documentation and download](https://momchil-terziev.github.io/Code/Near-wall-grid)
-- 
+
 ✅ Estimates the distribution and near-wall cell layer thickness to achieve a target y<sup>+</sup>. 
 
 ### Discretisation uncertainty estimator for CFD
