@@ -5,11 +5,6 @@ title: "Near-wall grid set-up for CFD"
 ---
 
 **On this page:** 
-
-A MATLAB app to calculat ethe near-wall grid distribution and thickness to achieve a desired y<sup>+</sup> value.
-
-**Contents:**
-
 * TOC
 {:toc}
 
