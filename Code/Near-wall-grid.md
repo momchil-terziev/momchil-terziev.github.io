@@ -30,8 +30,10 @@ The following methods can be used at present:
 | Granville |  $$C_f=0.0776/(log10(Re)-1.88)^2+60/Re$$  |
 
 
-Once the line to calculate $$C_F$$ is chosen, the shear stress is predicted as $$\tau_w=C_f\rho U^2/2$$. Then, the first layer thickness is predicted using the desired $$y^+$$ through $$dy=y^+\niu/sqrt(t_w/rho)$$, where $$\niu$$ is the kinematic viscosity. We then find $$n$$ layers
+Once the line to calculate $$C_f$$ is chosen, the shear stress is predicted as $$\tau_w=C_f\rho U^2/2$$. Then, the first layer thickness is calculated using the desired $$y^+$$ through $$dy=y^+\nu/sqrt(t_w/rho)$$, where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance. We do this through the boundary layer thickness $$\delta_x=(X%)0.382L/Re^{1/5}$$, where $$L$$ is the ship length, and X% is the % of the boundary layer we wish to distribute layers over. 
 
-After $$dy$$ is known, we find how many layers we can fit in the fraction of the boundary layer $$\delta=
+There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the distance $$delta_x$$ because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as a geometric progression, whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\inf$$.
+
+After $$dy$$ is known, we must find how many layers we can fit in a user-specified fraction (X%) of the boundary layer $$\delta=(X%)0.382L/Re^{1/5}$$, where $$L$$ is the ship length. 
 
 ## Download and install
