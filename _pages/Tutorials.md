@@ -6,12 +6,13 @@ author_profile: true
 ---
 
 **Contents:**
- TOC
+* TOC
 {:toc}
 
 
 ### [Working with ShipX](https://momchil-terziev.github.io/resources/Working-with-shipx-title)
 Includes :
+:white_check_mark: A tutorial on predicting ship motions and operability
  - [x] A tutorial on predicting ship motions and operability
  - [x] A tutorial on redicitng added resistance
  - [x] A guide on importing and debugging geometries
