@@ -64,5 +64,5 @@ fprintf(ff,'%s \n',b); % Write the file
 ## How to use the function
 
 * **Step 1:** [Download the function](https://momchil-terziev.github.io/Code/processTranscript.mlx)
-* **Step 2:** Add the function's location to MATLAB's search path: `addpath 'function location' `, for example `addpath 'C:\Users\momchil-terziev\Downloads'`. 
+* **Step 2:** Add the function's location to MATLAB's search path: `addpath 'function location'`, for example `addpath 'C:\Users\momchil-terziev\Downloads'`. 
 * **Step 3:** Use `processTranscript(path, inputfile, outputfile)` where `path` is the transcript location `path = 'C:\Users\...\Scripts directory'`, give the transcript file name as `inputfile = 'transcript.vtt'`, and output file name as `outputfile = 'processedtranscript.txt'`
