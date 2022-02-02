@@ -3,12 +3,16 @@ layout: archive
 title: "Known problems with ShipX"
 ---
 
+
 **On this page:**
-A script used to send jobs to ARCHIE-WeST using Star-CCM+.
+
+An example script and instructions on how to send jobs to ARCHIE-WeST using Star-CCM+.
+
 
 **Contents:**
 * TOC
 {:toc}
+
 
 
 ## Example script file
