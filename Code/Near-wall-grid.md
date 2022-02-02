@@ -30,10 +30,13 @@ The following methods can be used at present:
 | Granville |  $$C_f=0.0776/(log10(Re)-1.88)^2+60/Re$$  |
 
 
-Once the line to calculate $$C_f$$ is chosen, the shear stress is predicted as $$\tau_w=C_f\rho U^2/2$$. Then, the first layer thickness is calculated using the desired $$y^+$$ through $$dy=y^+\nu/sqrt(t_w/rho)$$, where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance. We do this through the boundary layer thickness $$\delta_x=(X%)0.382L/Re^{1/5}$$, where $$L$$ is the ship length, and X% is the % of the boundary layer we wish to distribute layers over. 
+Once the line to calculate $$C_f$$ is chosen, the shear stress is predicted as $$\tau_w=C_f\rho U^2/2$$. Then, the first layer thickness is calculated using the desired $$y^+$$ through $$dy=y^+\nu/sqrt(t_w/rho)$$, where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance. We do this through the boundary layer thickness $$\delta_x=X0.382L/Re^{1/5}$$, where $$L$$ is the ship length, and $$x%$$ is the % of the boundary layer we wish to distribute layers over. 
 
-There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the distance $$delta_x$$ because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as a geometric progression, whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\inf$$.
+There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the distance $$delta_x$$ because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as a geometric progression, whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$, and whose sum is the thickness over which we wish to distribute cells. The number of cells we need is then $$n=log[\delta*(S-1)/(2dy)]/log(S). Note that we use $$2dy$$ instead of $$dy$$ because the cell centre must be located at a distance of $$dy$$ from the wall.
 
-After $$dy$$ is known, we must find how many layers we can fit in a user-specified fraction (X%) of the boundary layer $$\delta=(X%)0.382L/Re^{1/5}$$, where $$L$$ is the ship length. 
+
+The only drawback is that we need an integer number of layers and rounding up may cause some small disagreement between the target $$y^+$$ and the desired $$y^+$$. In general, this discrepency can be expected to be in the region of up to 20% for low $$y^+$$ meshes and about 5 $$y^+$$ units for high $$y^+$$ meshes.
+
+
 
 ## Download and install
