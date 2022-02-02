@@ -2,9 +2,14 @@
 layout: archive
 title: "Known problems with ShipX"
 ---
+
 **On this page:**
+A script used to send jobs to ARCHIE-WeST using Star-CCM+.
+
+**Contents:**
 * TOC
 {:toc}
+
 
 ## Example script file
 This is an example script file. Everything in square brackets <[]> must be removed for the script to run. 
