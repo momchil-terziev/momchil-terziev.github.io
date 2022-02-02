@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Sending jobs to ARCHIE-WeST"
+title: "Sending Star-CCM+ simulations to ARCHIE-WeST"
 ---
 
 
