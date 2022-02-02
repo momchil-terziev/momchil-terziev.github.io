@@ -17,7 +17,7 @@ An example script and instructions on how to send jobs to ARCHIE-WeST to run Sta
 
 ## Example script file
 This is an example script file. Everything in square brackets `[]` must be removed for the script to run. 
-```
+```html
 #!/bin/bash
 
 #=================================================================================
