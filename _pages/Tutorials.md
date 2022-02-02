@@ -21,7 +21,7 @@ Includes :
 
 ✅ A list of known issues with ShipX
 
-### [Sending Star-CCM+ simulations to ARCHIE-WeST](https//:momchil-terziev.github.io/resources/Using-script-files-in-Star-CCM+)
+### [Sending Star-CCM+ simulations to ARCHIE-WeST](https://momchil-terziev.github.io/resources/Using-script-files-in-Star-CCM+)
 Includes:
 
 ✅ A guide on how to use thinlinc or MobaXterm
