@@ -1,12 +1,12 @@
 ---
 layout: archive
-title: "Known problems with ShipX"
+title: "Sending jobs to ARCHIE-WeST"
 ---
 
 
 **On this page:**
 
-An example script and instructions on how to send jobs to ARCHIE-WeST using Star-CCM+.
+An example script and instructions on how to send jobs to ARCHIE-WeST to run Star-CCM+ simulations in parallel.
 
 
 **Contents:**
