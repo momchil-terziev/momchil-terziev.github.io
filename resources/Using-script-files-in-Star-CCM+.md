@@ -81,6 +81,6 @@ Copy the script above and paste it into a notepad. The notepad must be saved wit
 -	Then open a file explorer in Thinlinc (in Thinlinc the cabinet icon, first option on the top right) and find your h_drive folder containing the script and simulation. In MobaXterm, navigate through the side panel – copy your files.
 -	Go to your home on the file explorer, eg: `/users/abc12345`[^1] and create a new folder. Make sure there are no spaces in the name of the folder; eg `StarccmFolder`; paste your files there.
 -	Copy the path eg `/users/abc12345/StarCCMFolder`, go back to the terminal and type in `cd /users/abc12345/Star_CCMFolder`; the path should update.
--	Type in sbatch `scriptname.sh` to send your simulation to HPC.
+-	Type in `sbatch scriptname.sh` to send your simulation to HPC.
 
 [^1]: Replace `abc12345` with your DS username
