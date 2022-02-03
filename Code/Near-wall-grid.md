@@ -36,7 +36,7 @@ The app appears as follows when installed
 ![UI](https://momchil-terziev.github.io/files/wallapp.png)
  
 - The Help button opens this page
-- [x] if the tickbox is ticked, the Run analysis button tickbox displays the results from all methods to predict $$C_f$$ in the command window 
+- ✅ if the tickbox is ticked, the Run analysis button tickbox displays the results from all methods to predict $$C_f$$ in the command window 
 
 Properties of water to input into the app: 
 
