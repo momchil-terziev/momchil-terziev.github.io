@@ -75,10 +75,10 @@ Copy the script above and paste it into a notepad. The notepad must be saved wit
 
 
 ## Instructions on how to send a simulation to Archie through Thinlinc or MobaXterm:
--	After you’ve logged in (Thinlinc only) open a terminal a terminal. 
+-	After you’ve logged in (Thinlinc only) open a terminal. 
 -	Type in: `mount_hdrive`
 -	Enter your password – the keys might not appear as you type.
--	Then open a file explorer in Thinlinc (in Thinlinc the cabinet icon, first option on the top right) and find your h_drive folder containing the script and simulation. In MobaXterm, navigate through the side panel – copy your files.
+-	Open a file explorer in Thinlinc (first option on the top right) and find your `h_drive` folder containing the script and simulation. In MobaXterm, navigate through the side panel – copy your files.
 -	Go to your home on the file explorer, eg: `/users/abc12345`[^1] and create a new folder. Make sure there are no spaces in the name of the folder; eg `StarccmFolder`; paste your files there.
 -	Copy the path eg `/users/abc12345/StarCCMFolder`, go back to the terminal and type in `cd /users/abc12345/Star_CCMFolder`; the path should update.
 -	Type in `sbatch scriptname.sh` to send your simulation to HPC.
