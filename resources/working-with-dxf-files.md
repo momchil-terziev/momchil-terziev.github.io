@@ -26,7 +26,7 @@ There are two things that go wrong at this stage 99% of the time. The first is t
 
 ![](https://momchil-terziev.github.io/files/clip_image010.jpg)
 
-#### Geomtry definition
+#### Geometry definition errors
 
 The second thing that tends to go wrong is with the order of points, making up each section or the presence of  invalid sections. Sections must look as shown in this image: ![](https://momchil-terziev.github.io/files/clip_image029.jpg)
 
@@ -59,6 +59,14 @@ Another potential problem comes about due to the ordering of points. The points 
 ![](https://momchil-terziev.github.io/files/clip_image021.png)
 
 This station satisfies the condition that it must cross the waterline, but the point with the highest _z_ coordinate does not have the highest _y_ coordinate. So ShipX is failing the data check. See the 3rd figure in the following section for a description of how points should be arranged to prevent the failed data check (page 9). To fix this, try creating a plane in Rhino/AutoCAD coincident with the waterline or ~1mm higher than the waterline and delete everything above this plane. Make sure any sinkage and trim effects you want to investigate, including effects of different draughts are modelled separately. 
+#### Other errors
+
+ShipX may refuse to accept a section that has too few points below the waterline. For example: 
+![](https://momchil-terziev.github.io/files/im1.jpg)
+And the related error output:
+![](https://momchil-terziev.github.io/files/im2.jpg)
+
+The solution in this case is to delete the highlighted section above. However, this reduces to overall length of the hull. To rectify this, the length of the hull must be manually adjusted by changing the loading condition.
 
 # Catamarans
 
