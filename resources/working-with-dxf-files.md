@@ -10,19 +10,27 @@ title: "Working with ShipX: working with .dxf files"
 
 ---
 
-### Monohulls
-
+# Monohulls
+## Data check: find potential issues
 In ShipX, set your loading condition (draught is critical) and visualise your lines plan by clicking on the Hull sections menu. Set your radii of gyration and run a Data Check – this will tell you where the problem is. See for example:
 
 ![](https://momchil-terziev.github.io/files/clip_image006.png)
 
 ![](https://momchil-terziev.github.io/files/clip_image008.jpg)
 
+### Common problems and how to fix them
+
+#### Radii of gyration errors
+
 There are two things that go wrong at this stage 99% of the time. The first is the radii of gyration. The data check will fail if the first 3 fields for radii of gyration not filled in. “R64” – the coupled radius of gyration in pitch-roll can be left as 0 usually. If the data check fails because of this, you can put a some number in – it won’t affect the results much regardless.
 
 ![](https://momchil-terziev.github.io/files/clip_image010.jpg)
 
-The second thing that tends to go wrong is with the order of points, making up each section or the presence of  invalid sections. You can get an indication of which problem the data check runs into by:
+#### Geomtry definition
+
+The second thing that tends to go wrong is with the order of points, making up each section or the presence of  invalid sections. Sections must look as shown in this image: ![](https://momchil-terziev.github.io/files/clip_image029.jpg)
+
+You can get an indication of which problem the data check runs into by:
 
 ![](https://momchil-terziev.github.io/files/clip_image012.png)
 
@@ -52,7 +60,7 @@ Another potential problem comes about due to the ordering of points. The points 
 
 This station satisfies the condition that it must cross the waterline, but the point with the highest _z_ coordinate does not have the highest _y_ coordinate. So ShipX is failing the data check. See the 3rd figure in the following section for a description of how points should be arranged to prevent the failed data check (page 9). To fix this, try creating a plane in Rhino/AutoCAD coincident with the waterline or ~1mm higher than the waterline and delete everything above this plane. Make sure any sinkage and trim effects you want to investigate, including effects of different draughts are modelled separately. 
 
-### Catamarans
+# Catamarans
 
 Firstly, ensure you have told ShipX it is looking at a catamaran:
 
