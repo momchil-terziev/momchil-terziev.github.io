@@ -62,9 +62,9 @@ This station satisfies the condition that it must cross the waterline, but the p
 #### Other errors
 
 ShipX may refuse to accept a section that has too few points below the waterline. For example: 
-![](https://momchil-terziev.github.io/files/im1.jpg)
+![](https://momchil-terziev.github.io/files/im1.png)
 And the related error output:
-![](https://momchil-terziev.github.io/files/im2.jpg)
+![](https://momchil-terziev.github.io/files/im2.png)
 
 The solution in this case is to delete the highlighted section above. However, this reduces to overall length of the hull. To rectify this, the length of the hull must be manually adjusted by changing the loading condition.
 
