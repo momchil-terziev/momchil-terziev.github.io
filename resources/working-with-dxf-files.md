@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Working with ShipX: working with .dxf files"
+title: "Working with ShipX: Passing a data check"
 ---
 
 **On this page:**
