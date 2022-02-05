@@ -20,7 +20,7 @@ This webpage contains documentation and set up instructions for a MATLAB app use
 
 # Download and installation
 ---
-The app can be downloaded [here](). To install the app, you must have a MATLAB license. The app is installed by opening it through the Install app button in the App ribbon of MATLAB.
+The app can be downloaded [here](https://momchil-terziev.github.io/Code/Discretisation Uncertainty Estimator.mlappinstall). To install the app, you must have a MATLAB license. The app is installed by opening it through the Install app button in the App ribbon of MATLAB.
 # Background
 ---
 ## Richardson extrapolation
@@ -68,7 +68,9 @@ $$U_V=(U_{grid}^2+U_{time}^2+U_{EFD}^2)^{1/2}$$
 
 The equation above is only used when both time and grid data are provided, that is, a URANS solution has been assessed for uncertainty separately in time and space. If the assessment has been conducted simultaneously for time and space, that is, by maintaining a constant Courant number, then only grid data should be entered. In this case, as well as in steady-state solutions (RANS), 
 
-$$U_V=(U_{c}^2+U_{EFD}^2)^{1/2}$$ where $$U_{c}$$ is the uncertainty computed wither in combination of time (URANS) and space or in space only (RANS).
+$$U_V=(U_{c}^2+U_{EFD}^2)^{1/2}$$ 
+
+where $$U_{c}$$ is the uncertainty computed wither in combination of time (URANS) and space or in space only (RANS).
 
 The final step is to check if the error, 
 
