@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Learning CFD basics"
+title: "Getting started with CFD"
 ---
 
 **On this page**
