@@ -21,4 +21,4 @@ A numerical simulation method is presented by integrating Computational Fluid Dy
 - a simple bow flare and bottom slamming pressure estimations based on the incident wave and ship global motions are proposed.
 
 
-[Download a free copy here](momchil-terziev.github.io/files/ momchil-terziev.github.io/files/Jiao_etal_OE_2021_Slamming_and_green_water_loads_on_a_ship_sailing_in_regular_waves_predicted_by_a_coupled_CFD_FEA_approach.pdf)
+[Download a free copy here](https://momchil-terziev.github.io/files/Jiao_etal_OE_2021_Slamming_and_green_water_loads_on_a_ship_sailing_in_regular_waves_predicted_by_a_coupled_CFD_FEA_approach.pdf)
