@@ -28,16 +28,24 @@ The app can be downloaded [here](). To install the app, you must have a MATLAB l
 All uncertainty estimators are based on Richardson extrapolation. This begins by defining changes between the medium-fine and coarse-medium solutions:
 $$e_{21}=S_2-S_1$$
 $$e_{32}=S_3-S_2$$
+
 Using $$e_{21}$$ and $$e_{32}$$, we the convergence ratio ($$R$$) can be predicted:
+
 $$R=e_{21}/e_{32}$$
+
 There are three possibilities depending on the value of $$R$$:
 - Monotonic convergence $$0<R<1$$
 - Oscillatory convergence: $$-1<R<0$$
 - Divergence: $$|R|>1$$ 
 
-Although CFD codes have a theoretical order of accuracy $$p_t=2$$, we frequently find the observed order of accuracy deviates from $$p_t$$ considerably. The observed order of accuracy is estimated by: $$p=ln(|e_{32}/e_{21}|)/ln(r)$$
-where $$r$$ is the refinement ratio. By default, the refinement ratio is set as $$r=\surd2$$
-With this information, it is possible to predict the error $$\delta=e_{21}/(r^p-1)$$
+Although CFD codes have a theoretical order of accuracy $$p_t=2$$, we frequently find the observed order of accuracy deviates from $$p_t$$ considerably. The observed order of accuracy is estimated by: 
+
+$$p=ln(|e_{32}/e_{21}|)/ln(r)$$
+
+where $$r$$ is the refinement ratio. By default, the refinement ratio is set as $$r=\surd2$$. With this information, it is possible to predict the error:
+
+$$\delta=e_{21}/(r^p-1)$$
+
 These results are calculated and displayed in the Richardson Extrapolation panel. 
 
 ## Uncertainty
@@ -54,9 +62,17 @@ $$U=FS|\delta|$$
 ## Validation
 ---
 Validation requires an numerical uncertainty estimate, an experimental result, and the experimental uncertainty. The first step is to compute the validation uncertainty:
+
 $$U_V=(U_{grid}^2+U_{time}^2+U_{EFD}^2)^{1/2}$$
-The equation above is only used when both time and grid data are provided, that is, a URANS solution has been assessed for uncertainty separately in time and space. If the assessment has been conducted simultaneously for time and space, that is, by maintaining a constant Courant number, then only grid data should be entered. In this case, as well as in steady-state solutions (RANS), $$U_V=(U_{c}^2+U_{EFD}^2)^{1/2}$$ where $$U_{c}$$ is the uncertainty computed wither in combination of time (URANS) and space or in space only (RANS).
-The final step is to check if the error, $$E=100\times(S_1-R_{EFD})/R_{EFD}$$
+
+The equation above is only used when both time and grid data are provided, that is, a URANS solution has been assessed for uncertainty separately in time and space. If the assessment has been conducted simultaneously for time and space, that is, by maintaining a constant Courant number, then only grid data should be entered. In this case, as well as in steady-state solutions (RANS), 
+
+$$U_V=(U_{c}^2+U_{EFD}^2)^{1/2}$$ where $$U_{c}$$ is the uncertainty computed wither in combination of time (URANS) and space or in space only (RANS).
+
+The final step is to check if the error, 
+
+$$E=100\times(S_1-R_{EFD})/R_{EFD}$$
+
 is smaller than the validation uncertainty, where $$R_{EFD}$$ is the experimental result. If $$R_{EFD}<U_V$$ , the solution is validated; otherwise, it is not.
 
 The validation exercise is conducted with the uncertainty estimate provided by each methodology.
