@@ -9,7 +9,7 @@ title: "Discretisation uncertainty estimator"
 
 # Introduction
 ---
-This webpage contains documentation and set up instructions for a MATLAB app used to estimate discretisation uncertainty. The app is built to include the most common techniques  for numerical uncertainty. If an experimental datapoint is provided and its uncertainty are provided, the app will run a validation check. The following table summarises the methods included.
+This webpage contains documentation and set up instructions for a MATLAB app used to estimate discretisation uncertainty. The app is built to include the most common techniques for numerical uncertainty estimation. If an experimental datapoint and its uncertainty are provided, the app will run a validation check. The following table summarises the methods included.
 
 | Method | Included? | 
 | ------ | -------- |
@@ -34,10 +34,10 @@ Using $$e_{21}$$ and $$e_{32}$$, we the convergence ratio ($$R$$) can be predict
 $$R=e_{21}/e_{32}$$
 
 There are three possibilities depending on the value of $$ R $$:
-- Monotonic: $$0<R<1$$
-- Oscillatory convergence: $$-1<R<0$$
-- Divergent solutions: $$|R| >1 $$ 
 
+* Monotonic: $$0<R<1$$
+* Oscillatory convergence: $$-1<R<0$$
+* Divergent solutions: $$|R| >1 $$ 
 
 Although CFD codes have a theoretical order of accuracy $$p_t=2$$, we frequently find the observed order of accuracy deviates from $$p_t$$ considerably. The observed order of accuracy is estimated by: 
 
