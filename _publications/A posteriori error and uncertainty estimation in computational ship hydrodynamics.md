@@ -2,11 +2,11 @@
 title: "A posteriori error and uncertainty estimation in computational ship hydrodynamics"
 collection: publications
 permalink: /publication/2020-aposteriori-paper
-excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
+excerpt: 'Richardson extrapolation-based discretisation error and uncertainty estimation'
 date: 2020-07-15
 venue: 'Ocean Engineering'
-paperurl: 'https://doi.org/10.1016/j.apor.2019.101930'
-citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
+paperurl: 'https://doi.org/10.1016/j.oceaneng.2020.107434'
+citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2020. A posteriori error and uncertainty estimation in computational ship hydrodynamics. Ocean Engineering, 208, p.107434.'
 ---
 
 ### Abstract
