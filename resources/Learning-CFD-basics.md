@@ -22,8 +22,8 @@ Turbulence is fundamental in the study of external flow. There are a number of w
 
 Supplement the above video with an introduction of some widely used eddy-viscosity turbulence models used for ship hydrodynamics:
 
-- Eddy-viscosity paper.
-- Examples of Detached Eddy Simulation for ship CFD.
+- [Application of eddy-viscosity turbulence models to problems in ship hydrodynamics](/publication/2019-eddy-visc)
+- Examples of Detached Eddy Simulation for ship CFD: [Prediction of the aerodynamic behaviour of a full-scale naval ship in head waves using Detached Eddy Simulation](/publication/2021-aerohydrodynamics-full-scale)
 
 ## Boussinesq hypothesis
 
@@ -49,7 +49,7 @@ The following video gives a good overview of validation and verification practic
 
 Supplement this video with the following paper on uncertainty estimation for ship CFD:
 
-- A posteriori paper
+- [A posteriori error and uncertainty estimation in computational ship hydrodynamics](/publication/2020-aposteriori-paper)
 
 You can also play around with some values using the [Discretisation uncertainty app]() and use it predict the discretisation uncertainty of your simulation, whose documentation can be found [here]().
 
@@ -59,7 +59,7 @@ Near wall modelling is of critical importance to predict the flow around any str
 
 - [Near-wall modelling](https://www.coursera.org/lecture/sports-building-aerodynamics/3-5-near-wall-modeling-mhtyh)
 
-Supplement this video with the near wall modelling section of [this paper]. Your chosen methodology can be applied by using the [Near wall grid set up app]. That is to say, you do not need to work through the iterative process mentioned in the video above.
+Supplement this video with the near wall modelling section of [this paper]. Your chosen methodology can be applied by using the [Near wall grid set up app](https://momchil-terziev.github.io/Code/Near-wall-grid). That is to say, you do not need to work through the iterative process mentioned in the video above.
 
 
 
