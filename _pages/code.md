@@ -21,7 +21,8 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 ✅ Estimates the distribution and near-wall cell layer thickness to achieve a target y<sup>+</sup>. 
 
 ### Discretisation uncertainty estimator for CFD
-🔲 To be uploaded
+- [Documentation and download](https://momchil-terziev.github.io/Code/Discretisation-uncertainty-estimator/)
+✅ Estimates the numerical uncertainty and conducts a validation assessment
 
 ## MS Stream transcript processor
 - [Documentation and download](https://momchil-terziev.github.io/Code/Transcript-app/)
