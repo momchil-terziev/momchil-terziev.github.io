@@ -39,7 +39,7 @@ author_profile: true
 
 ## [Sending Star-CCM+ simulations to ARCHIE-WeST](https://momchil-terziev.github.io/resources/Using-script-files-in-Star-CCM+) 
 ---
-This tutorial (https://momchil-terziev.github.io/resources/Using-script-files-in-Star-CCM+) includes:
+[This tutorial](https://momchil-terziev.github.io/resources/Using-script-files-in-Star-CCM+) includes:
 
 ✅ A guide on how to use Thinlinc or MobaXterm
 
