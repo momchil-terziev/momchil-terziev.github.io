@@ -2,11 +2,11 @@
 title: "Prediction of the aerodynamic behaviour of a full-scale naval ship in head waves using Detached Eddy Simulation"
 collection: publications
 permalink: /publication/2021-aerohydrodynamics-full-scale
-excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
+excerpt: 'Detached eddy simulation of full-scale ship aerohydrodynamics'
 date: 2021-02-15
 venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2021.108583'
-citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
+citation: 'Nisham, A., Terziev, M., Tezdogan, T., Beard, T. and Incecik, A., 2021. Prediction of the aerodynamic behaviour of a full-scale naval ship in head waves using Detached Eddy Simulation. Ocean Engineering, 222, p.108583.'
 ---
 
 ### Abstract
