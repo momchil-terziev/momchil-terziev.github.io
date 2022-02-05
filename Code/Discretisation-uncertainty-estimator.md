@@ -34,6 +34,7 @@ There are three possibilities depending on the value of $$R$$:
 - Monotonic convergence $$0<R<1$$
 - Oscillatory convergence: $$-1<R<0$$
 - Divergence: $$|R|>1$$ 
+
 Although CFD codes have a theoretical order of accuracy $$p_t=2$$, we frequently find the observed order of accuracy deviates from $$p_t$$ considerably. The observed order of accuracy is estimated by: $$p=ln(|e_{32}/e_{21}|)/ln(r)$$
 where $$r$$ is the refinement ratio. By default, the refinement ratio is set as $$r=\surd2$$
 With this information, it is possible to predict the error $$\delta=e_{21}/(r^p-1)$$
