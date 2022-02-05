@@ -19,4 +19,4 @@ Historically, the field of naval architecture has relied on a combination of mod
 * Current state of CFD accuracy against full-scale trial data.
 
 
-[Download a free copy here](momchil-terziev.github.io/files/ momchil-terziev.github.io/files/Terziev_etal_OE_2021_A_numerical_assessment_of_the_scale_effects_of_a_ship_advancing_through_restricted_waters.pdf)
+[Download a free copy here](https://momchil-terziev.github.io/files/Terziev_etal_OE_2021_A_numerical_assessment_of_the_scale_effects_of_a_ship_advancing_through_restricted_waters.pdf)
