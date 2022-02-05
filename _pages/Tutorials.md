@@ -17,7 +17,7 @@ author_profile: true
 ---
 [This collection of tutorials and guides](https://momchil-terziev.github.io/resources/Working-with-shipx-title) includes:
 * ✅ A tutorial on predicting ship motions and operability.
-* ✅ A tutorial on redicitng added resistance.
+* ✅ A tutorial on predicting added resistance.
 * ✅ A guide on importing and debugging geometries.
 * ✅ A list of known issues with ShipX.
 
