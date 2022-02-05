@@ -16,14 +16,10 @@ author_profile: true
 ## [Working with ShipX](https://momchil-terziev.github.io/resources/Working-with-shipx-title)
 ---
 [This collection of tutorials and guides](https://momchil-terziev.github.io/resources/Working-with-shipx-title) includes:
-
-✅ A tutorial on predicting ship motions and operability.
-
-✅ A tutorial on redicitng added resistance.
-
-✅ A guide on importing and debugging geometries.
-
-✅ A list of known issues with ShipX.
+* ✅ A tutorial on predicting ship motions and operability.
+* ✅ A tutorial on redicitng added resistance.
+* ✅ A guide on importing and debugging geometries.
+* ✅ A list of known issues with ShipX.
 
 ## [Getting started with CFD](https://momchil-terziev.github.io/resources/Learning-CFD-basics/)
 ---
