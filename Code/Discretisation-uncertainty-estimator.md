@@ -34,9 +34,9 @@ Using $$e_{21}$$ and $$e_{32}$$, we the convergence ratio ($$R$$) can be predict
 $$R=e_{21}/e_{32}$$
 
 There are three possibilities depending on the value of $$ R $$:
-- Monotonic convergence : $$ 0<R<1 $$
-- Oscillatory convergence : $$ -1<R<0 $$
-- Divergence : $$ |R|>1 $$ 
+- Monotonic: $$0<R<1$$
+- Oscillatory convergence: $$-1<R<0$$
+- Divergence: $$|R| >1 $$ 
 
 Although CFD codes have a theoretical order of accuracy $$p_t=2$$, we frequently find the observed order of accuracy deviates from $$p_t$$ considerably. The observed order of accuracy is estimated by: 
 
