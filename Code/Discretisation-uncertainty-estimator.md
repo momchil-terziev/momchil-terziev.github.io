@@ -37,7 +37,7 @@ There are three possibilities depending on the value of $$ R $$:
 
 * Monotonic: $$0<R<1$$
 * Oscillatory convergence: $$-1<R<0$$
-* Divergent solutions: $$|R| >1 $$ 
+* Divergent solutions: $$R<-1$$ or $$R>1$$ 
 
 Although CFD codes have a theoretical order of accuracy $$p_t=2$$, we frequently find the observed order of accuracy deviates from $$p_t$$ considerably. The observed order of accuracy is estimated by: 
 
