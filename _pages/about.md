@@ -27,7 +27,7 @@ All things CFD, but more specifically:
 
 # Collaboration
 ---
-I am always looking to collaborate on research, and would be delighted to discuss potential collaborations. If you have any questions about my existing work, need access to any of my research, or would like to discuss ideas you can [get in touch](/get-in-touch). You can also get in touch informally through [twitter](https://twitter.com/m_terziev), or by [email](mailto:momchil.terziev@strath.ac.uk).
+I am always looking to collaborate on research, and would be delighted to discuss potential collaborations. If you have any questions about my existing work, need access to any of my research, or would like to discuss ideas you can [get in touch](mailto:momchil.terziev@strath.ac.uk). You can also reach me informally through [twitter](https://twitter.com/m_terziev), or by [email](mailto:momchil.terziev@strath.ac.uk).
 
 # Students
 ---
