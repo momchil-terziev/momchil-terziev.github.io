@@ -52,7 +52,7 @@ Supplement this video with the following paper on uncertainty estimation for shi
 
 - [A posteriori error and uncertainty estimation in computational ship hydrodynamics](/publication/2020-aposteriori-paper)
 
-You can also play around with some values using the [Discretisation uncertainty app](https://momchil-terziev.github.io/Code/Discretisation Uncertainty Estimator) and use it predict the discretisation uncertainty of your simulation, whose documentation can be found [here]().
+You can also play around with some values using the [Discretisation uncertainty app](https://momchil-terziev.github.io/Code/Discretisation-uncertainty-estimator) and use it predict the discretisation uncertainty of your simulation, whose documentation can be found [here]().
 
 # Near wall flow
 ---
