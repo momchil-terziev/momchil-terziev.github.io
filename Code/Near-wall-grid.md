@@ -31,7 +31,7 @@ $$\tau_w=C_f\rho U^2/2$$
 
 Then, the first layer thickness is calculated using the desired $$y^+$$ through: 
 
-$$dy=y^+\nu/\surd(t_w/rho)$$
+$$dy=y^+\nu/\surd(t_w/\rho)$$
 
 where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance. We do this through the boundary layer thickness 
 
