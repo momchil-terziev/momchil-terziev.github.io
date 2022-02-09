@@ -71,7 +71,7 @@ Take as an example the KCS hull:
 
 | Property | Symbol | Value | Units |
 | -------- | ------ | ----- | ----- |
-| Scale factor | $$\lamda$$ | 31.599 | - |
+| Scale factor | $$\lambda$$ | 31.599 | - |
 | Length | $$L$$ | 7.2787 | m |
 | Froude number | $$F_n$$ |0.26 | - |
 | Number of layers | $$n$$ | 3 | - |
