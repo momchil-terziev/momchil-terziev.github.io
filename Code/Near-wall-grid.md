@@ -63,3 +63,36 @@ Properties of water to input into the app:
 
 ## Download and install
 The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFDyplusapp.mlappinstall), and installed by navigating to the Apps ribbon.
+
+## Example application
+#### KCS hull in deep water
+
+Take as an example the KCS hull:
+
+| Property | Symbol | Value | Units |
+| -------- | ------ | ----- | ----- |
+| Scale factor | $$\lamda$$ | 31.599 | - |
+| Length | $$L$$ | 7.2787 | m |
+| Froude number | $$F_n$$ |0.26 | - |
+| Number of layers | $$n$$ | 3 | - |
+| Prism layer thickness | $$\delta$$ | 0.0636 | m |
+| Stretch factor | $$S$$ | 1.3 | - |
+| Desired $$y^+$$ | $$y^+_d$$ |  50 | - |
+| Achieved $$y^+$$ | $$y^+_a$$ | ~54 | - |
+
+![](/files/img_ref.png)
+
+Output from all friction lines
+```
+Friction line       Cf        Shear stress    First layer thickness    Number of layers
+    _____________    _________    ____________    _____________________    ________________
+
+    {'ITTC'     }    0.0027171       6.5355            0.00055033                 3        
+    {'Prandtl'  }    0.0026209       6.3042            0.00056033                 3        
+    {'Telfer'   }    0.0024987       6.0103            0.00057387                 2        
+    {'Landweber'}    0.0026483       6.3701            0.00055743                 3        
+    {'Hughes'   }    0.0024273       5.8384            0.00058226                 2        
+    {'Gadd'     }    0.0026289       6.3233            0.00055948                 3        
+    {'Granville'}    0.0026905       6.4715            0.00055304                 3        
+ ```
+
