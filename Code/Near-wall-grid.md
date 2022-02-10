@@ -77,6 +77,7 @@ Take as an example the KCS hull:
 
 ##### Case 1
 ---
+
 | Property | Symbol | Value | Units |
 | -------- | ------ | ----- | ----- |
 | Number of layers | $$n$$ | 3 | - |
@@ -106,6 +107,7 @@ Friction line       Cf        Shear stress    First layer thickness    Number of
 
 ##### Case 2
 ---
+
 | Property | Symbol | Value | Units |
 | -------- | ------ | ----- | ----- |
 | Number of layers | $$n$$ | 3 | - |
