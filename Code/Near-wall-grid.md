@@ -45,7 +45,7 @@ $$n=log[\delta(S-1)/(2dy)]/log(S)$$
 
 Note that we use $$2dy$$ instead of $$dy$$ because the cell centre must be located at a distance of $$dy$$ from the wall.
 
-The only drawback is that we need an integer number of layers and rounding up may cause some small disagreement between the target $$y^+$$ and the desired $$y^+$$. In general, this discrepency can be expected to be in the region of up to 20% for low $$y^+$$ meshes and about 5 $$y^+$$ units for high $$y^+$$ meshes.
+The only drawback is that we need an integer number of layers and rounding up may cause some disagreement between the target $$y^+$$ and the desired $$y^+$$. In general, this discrepency can be expected to be in the region of up to 20% for low $$y^+$$ meshes and about $$\pm$$10% for high $$y^+$$ meshes.
 
 ## User interface
 The app appears as follows when installed
@@ -74,15 +74,23 @@ Take as an example the KCS hull:
 | Scale factor | $$\lambda$$ | 31.599 | - |
 | Length | $$L$$ | 7.2787 | m |
 | Froude number | $$F_n$$ |0.26 | - |
+
+##### Case 1
+---
+| Property | Symbol | Value | Units |
+| -------- | ------ | ----- | ----- |
 | Number of layers | $$n$$ | 3 | - |
 | Prism layer thickness | $$\delta$$ | 0.0636 | m |
 | Stretch factor | $$S$$ | 1.3 | - |
 | Desired $$y^+$$ | $$y^+_d$$ |  50 | - |
-| Achieved $$y^+$$ | $$y^+_a$$ | ~54 | - |
+| Achieved $$y^+$$ | $$y^+_a$$ | ~54.5 | - |
+
+Example input:
 
 ![](/files/img_ref.png)
 
-Output from all friction lines
+Output from all friction lines:
+
 ```
 Friction line       Cf        Shear stress    First layer thickness    Number of layers
     _____________    _________    ____________    _____________________    ________________
@@ -96,3 +104,30 @@ Friction line       Cf        Shear stress    First layer thickness    Number of
     {'Granville'}    0.0026905       6.4715            0.00055304                 3        
  ```
 
+##### Case 2
+---
+| Property | Symbol | Value | Units |
+| -------- | ------ | ----- | ----- |
+| Number of layers | $$n$$ | 3 | - |
+| Prism layer thickness | $$\delta$$ | 0.032 m | m |
+| Stretch factor | $$S$$ | 1.3 | - |
+| Desired $$y^+$$ | $$y^+_d$$ |  255 | - |
+| Achieved $$y^+$$ | $$y^+_a$$ | ~281 | - |
+
+
+Output from all friction lines:
+
+```
+
+    Friction line       Cf        Shear stress    First layer thickness    Number of layers
+    _____________    _________    ____________    _____________________    ________________
+
+    {'ITTC'     }    0.0027169       6.5409             0.0028055                 3        
+    {'Prandtl'  }    0.0026207       6.3094             0.0028565                 2        
+    {'Telfer'   }    0.0024985       6.0153             0.0029255                 2        
+    {'Landweber'}    0.0026481       6.3754             0.0028417                 2        
+    {'Hughes'   }    0.0024271       5.8432             0.0029683                 2        
+    {'Gadd'     }    0.0026287       6.3287             0.0028522                 2        
+    {'Granville'}    0.0026903       6.4769             0.0028193                 3       
+
+```
