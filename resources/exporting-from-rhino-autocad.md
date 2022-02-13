@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Working with ShipX: importing from Rhino or AutoCAD"
+title: "Working with ShipX: exporting from Rhino or AutoCAD"
 ---
 ---
 
