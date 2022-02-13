@@ -17,7 +17,7 @@ The purpose of this page is to help students working with ShipX. The content is 
 ## **Guides**
 ---
  - [Exporting geometries from Maxsurf](https://momchil-terziev.github.io/resources/exporting-geometries-from-maxsurf)
- - [Importing from Rhino and AutoCAD](https://momchil-terziev.github.io/resources/importing-from-rhino-autocad)
+ - [Exporting from Rhino and AutoCAD](https://momchil-terziev.github.io/resources/exporting-from-rhino-autocad)
  - [Passing a data check](https://momchil-terziev.github.io/resources/working-with-dxf-files)
  - [Fixing non-positive volumes, lengths, coefficients](https://momchil-terziev.github.io/resources/non-positive-data)
  - [Known issues when working with ShipX](https://momchil-terziev.github.io/resources/Known%20problems/)
