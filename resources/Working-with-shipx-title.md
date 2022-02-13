@@ -38,4 +38,4 @@ If you are learning how to use ShipX’s motions and added resistance features, 
    - [PDF tutorial](https://momchil-terziev.github.io/files/ShipX tutorial added resistace.pdf)
  
  
-**Last update**: 05/02/22
+**Last update**: 13/02/22
