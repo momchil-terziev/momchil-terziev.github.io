@@ -19,6 +19,8 @@ The purpose of this page is to help students working with ShipX. The content is 
  - [Exporting geometries from Maxsurf](https://momchil-terziev.github.io/resources/exporting-geometries-from-maxsurf)
  - [Exporting from Rhino and AutoCAD](https://momchil-terziev.github.io/resources/exporting-from-rhino-autocad)
  - [Passing a data check](https://momchil-terziev.github.io/resources/working-with-dxf-files)
+   - [Monohull vessels](https://momchil-terziev.github.io/resources/Monohulls)
+   - [Multihull vessels](https://momchil-terziev.github.io/resources/Multihulls)
  - [Fixing non-positive volumes, lengths, coefficients](https://momchil-terziev.github.io/resources/non-positive-data)
  - [Known issues when working with ShipX](https://momchil-terziev.github.io/resources/Known%20problems/)
 
