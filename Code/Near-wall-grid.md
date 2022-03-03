@@ -23,7 +23,7 @@ The following methods can be used at present:
 | Hughes |  $$C_f=0.067/(log_{10}(Re)-1.703)^2$$  |
 | Gadd |  $$C_f=0.0113/(log_{10}(Re)-3.7)^{1.15}$$  |
 | Granville |  $$C_f=0.0776/(log10(Re)-1.88)^2+60/Re$$  |
-| Schoenherr | $$0.242/\surd{C_f)=log_{10}(Re\timesCf) |
+| Schoenherr | $$0.242/\surd{C_f)=log_{10}(Re\timesCf)$$ |
 
 ### Calculation
 Once the line to calculate $$C_f$$ is chosen, the shear stress is predicted as: 
