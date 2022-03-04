@@ -43,7 +43,7 @@ where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a u
 
 There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the entire selected distance because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as the geometric progression:
 
-$$\delta_x=\underbrace{2\dy+S{\times}2\dy+S^2{\times}2\dy+S^3{\times}2\dy+...S^{n-1}{\times}dy}_\text{n layers}$$
+$$\delta_x=\underbrace{2dy+S{\times}2dy+S^2{\times}2dy+S^3{\times}2dy+...S^{n-1}{\times}2dy}_\text{n layers}$$
 
 whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$, and whose sum is the thickness over which we wish to distribute cells. The number of cells we need is then 
 
@@ -59,6 +59,7 @@ The app appears as follows when installed
  
 - The Help button opens this page
 - ✅ if the tickbox is ticked, the Run analysis button displays the results from all methods to predict $$C_f$$ in the command window.
+- The 'Fill fluid properties' button enters the fresh water properties.
 
 Properties of water to input into the app: 
 
@@ -67,8 +68,6 @@ Properties of water to input into the app:
 | Density  | 997.561 | 1025 |   $$kg/m^3$$   |
 | Dynamic viscosity | 8.8871E-4  |  |   $$Pa-s$$   |
 
-The 'Fill fluid properties' button enters the fresh water properties.
-The 'Help' button opens this webpage
 
 ## Download and install
 The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFDyplusapp.mlappinstall), and installed by navigating to the Apps ribbon.
