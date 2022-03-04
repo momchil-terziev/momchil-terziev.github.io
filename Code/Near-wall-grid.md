@@ -43,7 +43,7 @@ where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a u
 
 There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the entire selected distance because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as the geometric progression:
 
-$$\delta_x=2\Deltay+S{\times}2\Deltay+S^2{\times}2\Deltay+S^3{\times}2\Deltay+...$$
+$$\delta_x=2\dy+S{\times}2\dy+S^2{\times}2\dy+S^3{\times}2\dy+...$$
 
 whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$, and whose sum is the thickness over which we wish to distribute cells. The number of cells we need is then 
 
