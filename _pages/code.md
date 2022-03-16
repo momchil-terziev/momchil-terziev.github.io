@@ -25,6 +25,9 @@ I use MATLAB to process data for my research. Occasionally, I also write code th
 
 ✅ Estimates the numerical uncertainty and conducts a validation assessment
 
+## Animator
+- [Documentation and download](/Code/animator/)
+
 ## MS Stream transcript processor
 - [Documentation and download](https://momchil-terziev.github.io/Code/Transcript-app/)
 
