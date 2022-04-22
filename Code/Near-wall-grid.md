@@ -62,10 +62,10 @@ The app appears as follows when installed
 
 Properties of water to input into the app. Salt water properties correspond to those given by the [ITTC at 15 degrees C](https://ittc.info/media/4048/75-02-01-03.pdf): 
 
-| Property | Fresh water | Salt water | Units |
-| -------- |-------------| ---------- | ----- |
-| Density  | 997.561 | 1026.021 |   $$kg/m^3$$   |
-| Dynamic viscosity | 0.00088871  | 0.00122 |   $$Pa-s$$   |
+| Property | Fresh water | Salt water | Air | Units |
+| -------- |-------------| ---------- | --- | ----- |
+| Density  | 997.561 | 1026.021 | 1.18415 | $$kg/m^3$$   |
+| Dynamic viscosity | 0.00088871  | 0.00122 | 1.85508E-5 | $$Pa-s$$   |
 
 
 ## Download and install
