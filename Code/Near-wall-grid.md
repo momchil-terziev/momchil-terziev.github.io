@@ -45,7 +45,7 @@ There is no point on distrubuting layers of constant thickness equal to $$dy$$ o
 
 $$\delta_x=\underbrace{2dy+S{\times}2dy+S^2{\times}2dy+S^3{\times}2dy+...S^{n-1}{\times}2dy}_\text{n layers}$$
 
-whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$, and whose sum is the thickness over which we wish to distribute cells. The number of cells we need is then 
+whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$. The sum of all terms 2dyS is the thickness over which we wish to distribute cells. The number of cells we need is then 
 
 $$n=log[-\delta(S-1)/(2dy)+1]/log(S)$$
 
@@ -73,3 +73,6 @@ Properties of water to input into the app:
 The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFDyplusapp.mlappinstall), and installed by navigating to the Apps ribbon.
 
 It is possible to choose the desired $$y^+$$ or the number of layers if known in advance. In the latter case, the $$y^+$$ is computed in place of the number of layers. These settings may be changed through the dropdown menus in the Grid properties section.
+
+---
+To do: Add first layer capability
