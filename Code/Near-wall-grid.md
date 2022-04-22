@@ -60,7 +60,7 @@ The app appears as follows when installed
 - ✅ if the tickbox is ticked, the Run analysis button displays the results from all methods to predict $$C_f$$ in the command window.
 - The 'Fill properties' button enters the fresh/salt water properties.
 
-Properties of water to input into the app. Salt water properties correspond to those given by the [ITTC at 15 degrees C](https://ittc.info/media/4048/75-02-01-03.pdf): 
+Salt water properties correspond to those given by the [ITTC at 15 degrees C](https://ittc.info/media/4048/75-02-01-03.pdf): 
 
 | Property | Fresh water | Salt water | Air | Units |
 | -------- |-------------| ---------- | --- | ----- |
