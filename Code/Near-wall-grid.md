@@ -34,12 +34,11 @@ Then, the first layer thickness is calculated using the desired $$y^+$$ through:
 
 $$dy=y^+\nu/\surd(t_w/\rho)$$
 
-where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance. We do this in one of three ways:
+where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance . We do this in one of three ways:
 
 1. As a fraction of the boundary layer thickness $$\delta_x=x0.382L/Re^{1/5}$$ where $$L$$ is the ship length, and $$x%$$ is the % of the boundary layer we wish to distribute layers over. 
-2. As a fraction of the ship length $$\delta_x=x{\times}L$$
-3. As a total distance $$\delta_x=x$$ (m)
-
+2. As a fraction of the ship length $$\delta_x=x{\times}L$$, where $$x$$ is a % of the ship length
+3. As a total distance $$\delta_x=x$$, where $$x$$ is a distance in m.
 
 There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the entire selected distance because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as the geometric progression:
 
@@ -55,24 +54,22 @@ The only drawback is that we need an integer number of layers and rounding up ma
 
 ## User interface
 The app appears as follows when installed
-![UI](https://momchil-terziev.github.io/files/Screenshot-2022-03-03 192743.png)
+![UI](https://momchil-terziev.github.io/files/screengrab.png)
  
 - The Help button opens this page
 - ✅ if the tickbox is ticked, the Run analysis button displays the results from all methods to predict $$C_f$$ in the command window.
-- The 'Fill fluid properties' button enters the fresh water properties.
+- The 'Fill properties' button enters the fresh/salt water properties.
 
-Properties of water to input into the app: 
+Properties of water to input into the app. Salt water properties correspond to those given by the [ITTC at 15 degrees C](https://ittc.info/media/4048/75-02-01-03.pdf): 
 
 | Property | Fresh water | Salt water | Units |
 | -------- |-------------| ---------- | ----- |
-| Density  | 997.561 | 1025 |   $$kg/m^3$$   |
-| Dynamic viscosity | 8.8871E-4  |  |   $$Pa-s$$   |
+| Density  | 997.561 | 1026.021 |   $$kg/m^3$$   |
+| Dynamic viscosity | 0.00088871  | 0.00122 |   $$Pa-s$$   |
 
 
 ## Download and install
-The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFDyplusapp.mlappinstall), and installed by navigating to the Apps ribbon.
+The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFD yplus app.mlappinstall), and installed by navigating to the Apps ribbon.
 
-It is possible to choose the desired $$y^+$$ or the number of layers if known in advance. In the latter case, the $$y^+$$ is computed in place of the number of layers. These settings may be changed through the dropdown menus in the Grid properties section.
+It is possible to choose the desired $$y^+$$ or the number of layers if known in advance. In the latter case, the $$y^+$$ is computed in place of the number of layers. These settings may be changed through the dropdown menus in the Grid properties section. Similarly, when the first layer thickness is specified, the output field displaying the first layer thickness shows the achieved $$y^+$$ instead.
 
----
-To do: Add first layer capability
