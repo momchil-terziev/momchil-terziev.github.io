@@ -50,7 +50,7 @@ Linear wave theory can be used to confirm the accuracy of wave predictions from 
 
 ### 9. Investigation into near-wall layer distribution for ship CFD
 
-When meshing a ship CFD case, we distribute near-wall cells in the boundary layer of the hull. We use either a high Reynolds or low Reynolds number approach leading to high $$y^+$$ or low $$y^+$$ meshes. In this project, the the thickness of this layer, its layer distribution and $$y^+$$ value of each layer will be varied to investigate the best meshing technique and provide recommendations for general cases.
+When meshing a ship CFD case, we distribute near-wall cells in the boundary layer of the hull. We use either a high Reynolds or low Reynolds number approach leading to high $$y^+$$ or low $$y^+$$ meshes. In this project, the thickness of this layer, its layer distribution and $$y^+$$ value of each layer will be varied to investigate the best meshing technique and provide recommendations for general cases.
 
 ### 10. Steady and/or unsteady ship-ship hydrodynamic interaction in confined water
 
