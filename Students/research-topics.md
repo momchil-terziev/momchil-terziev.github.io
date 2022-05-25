@@ -48,6 +48,14 @@ Inland waterways, such as rivers and canals, require expensive maintenance due t
 
 Linear wave theory can be used to confirm the accuracy of wave predictions from CFD. This approach relies on sampling wave fields in CFD and comparing the produced wave number distributions. The output form this project would be ideally an open access tool for the verification of wave fields produced by any free surface piercing disturbance. _Some rudimentary programming background is desirable for this project in MATLAB ideally. This will be necessary in processing and visualising the data._
 
+### 9. Investigation into near-wall layer distribution for ship CFD
+
+When meshing a ship CFD case, we distribute near-wall cells in the boundary layer of the hull. We use either a high Reynolds or low Reynolds number approach leading to high y^+ or low y^+ meshes. In this project, the the thickness of this layer, its layer distribution and y^+ value of each layer will be varied to investigate the best meshing technique and provide recommendations for general cases.
+
+### 10. Steady and/or unsteady ship-ship hydrodynamic interaction in confined water
+
+In this project, the steady interactoin between two ships advancing at the same speed and/or the unsteady interaction between two ships will be investigated using CFD. In the former case, the position, speed, topography of the seabed will be varied. In the latter case, the unsteady interaction between a moored, or stationary, ship and a passing ship will be investigated.
+
 ### References
 
 [^1]: [Li, M., Yuan, Z.M. and Yeung, R.W., 2020, August. Unsteady Wave-Making Resistance of an Accelerating Ship. In _International Conference on Offshore Mechanics and Arctic Engineering_ (Vol. 84379, p. V06AT06A020). American Society of Mechanical Engineers.](https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2020/V06AT06A020/1092846?casa_token=uGwZhqV7QbwAAAAA:zfaRsB9bi2lKUs81_crKH8Qa0wIuQEddfh9Uw7kUb8uG9dA09x3-Ex1sUQfH3LFK18OYX0e7). 
