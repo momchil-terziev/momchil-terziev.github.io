@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Working with ShipX: exporting from Maxsurf"
+author_profile: false
 ---
 ---
 
