@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Working with ShipX:fixing non-positive data"
+author_profile: false
 ---
 ---
 
