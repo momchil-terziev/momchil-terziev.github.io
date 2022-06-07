@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Working with ShipX: monohulls"
+author_profile: false
 ---
 
 **On this page:**
