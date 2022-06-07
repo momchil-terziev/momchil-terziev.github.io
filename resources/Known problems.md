@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Known problems with ShipX"
+author_profile: false
 ---
 
 
