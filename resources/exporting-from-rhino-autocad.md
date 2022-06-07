@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Working with ShipX: exporting from Rhino or AutoCAD"
+author_profile: false
 ---
 ---
 
