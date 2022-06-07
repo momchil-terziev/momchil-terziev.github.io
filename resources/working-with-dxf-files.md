@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Working with ShipX: Passing a data check"
+author_profile: false
 ---
 
 **On this page:**
