@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Working with ShipX: Multihulls"
+author_profile: false
 ---
 
 **On this page:**
