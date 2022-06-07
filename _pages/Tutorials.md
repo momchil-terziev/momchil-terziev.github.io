@@ -2,7 +2,7 @@
 layout: archive
 title: "Tutorials"
 permalink: /tutorials/
-author_profile: false
+author_profile: true
 ---
 
 **On this page:**
