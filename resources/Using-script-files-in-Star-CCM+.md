@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Sending Star-CCM+ simulations to ARCHIE-WeST"
+author_profile: false
 ---
 
 
