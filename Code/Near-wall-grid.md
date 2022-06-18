@@ -44,7 +44,7 @@ There is no point on distrubuting layers of constant thickness equal to $$dy$$ o
 
 $$\delta_x=\underbrace{2dy+S{\times}2dy+S^2{\times}2dy+S^3{\times}2dy+...S^{n-1}{\times}2dy}_\text{n layers}$$
 
-whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$. The sum of all terms 2dyS is the thickness over which we wish to distribute cells. The number of cells we need is then 
+whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$. The sum of all terms $\sum_{1}^{n} 2dyS^n$ is the thickness over which we wish to distribute cells. The number of cells we need is then 
 
 $$n=log[-\delta(S-1)/(2dy)+1]/log(S)$$
 
