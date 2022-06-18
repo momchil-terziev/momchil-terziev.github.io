@@ -87,7 +87,7 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
 - Get in touch to suggest other capabilities.
 
 ---
-**Last update: June 18th 2022**
+**Last update: _June 18th 2022_**
 - Update 2:
   - Add layer visualisation ability
   - Add command window logging
