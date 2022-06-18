@@ -67,7 +67,7 @@ Properties according to the [ITTC](https://ittc.info/media/4048/75-02-01-03.pdf)
 | Density  | 997.561 | 1026.021 | 1.18415 | $$kg/m^3$$   |
 | Dynamic viscosity | 0.00088871  | 0.00122 | 1.85508E-5 | $$Pa-s$$   |
 
-### Custon water temperature
+### Changing the water temperature
 The temperature may be set at any value between 0.1 °C and 50 °C at 0.1 °C increments to determine the density and viscosity of the [fresh water](https://momchil-terziev.github.io/files/Fresh water properties.txt) or [salt water](https://momchil-terziev.github.io/files/Salt water properties.txt). The menu can be accessed by right-clicking anywhere in the 'Auto-fill fluid properties' section. Full details can be found on the [ITTC webpage](https://ittc.info/media/4048/75-02-01-03.pdf). 
 
 ### Recording outputs
