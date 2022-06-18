@@ -96,5 +96,4 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
   - Set automatic density and viscosity filling 
   - Add first layer thickness calculation capability
   - Allow switching between Reynolds and Froude numbers in outputs
-
-<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1uBzRYOZicDgg4clRlovSsq3IMJx9w4LDxb-Gp7NvyCc&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+ 
