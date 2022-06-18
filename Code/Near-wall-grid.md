@@ -44,7 +44,7 @@ There is no point on distrubuting layers of constant thickness equal to $$dy$$ o
 
 $$\delta_x=\underbrace{2dy+S{\times}2dy+S^2{\times}2dy+S^3{\times}2dy+...S^{n-1}{\times}2dy}_\text{n layers}$$
 
-whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$. The sum of all terms $\sum_{1}^{n} 2dyS^n$ is the thickness over which we wish to distribute cells. The number of cells we need is then 
+whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$. The sum of all terms $\sum_{0}^{n} 2dyS^n$ is the thickness over which we wish to distribute cells. The number of cells we need is then 
 
 $$n=log[-\delta(S-1)/(2dy)+1]/log(S)$$
 
@@ -58,15 +58,23 @@ The app appears as follows when installed
  
 - The Help button opens this page
 - ✅ if the tickbox is ticked, the Run analysis button displays the results from all methods to predict $$C_f$$ in the command window.
-- The 'Fill properties' button enters the fresh/salt water properties.
+- The 'Fill properties' button enters the fresh/salt water properties at 15 °C.
 
-Salt water properties correspond to those given by the [ITTC at 15 degrees C](https://ittc.info/media/4048/75-02-01-03.pdf): 
+Properties according to the [ITTC](https://ittc.info/media/4048/75-02-01-03.pdf): 
 
 | Property | Fresh water | Salt water | Air | Units |
 | -------- |-------------| ---------- | --- | ----- |
 | Density  | 997.561 | 1026.021 | 1.18415 | $$kg/m^3$$   |
 | Dynamic viscosity | 0.00088871  | 0.00122 | 1.85508E-5 | $$Pa-s$$   |
 
+### Custon water temperature
+The temperature may be set at any value between 0.1 °C and 50 °C at 0.1 °C increments to determine the density and viscosity of the [fresh water](https://momchil-terziev.github.io/files/Fresh water properties.txt) or [salt water](https://momchil-terziev.github.io/files/Salt water properties.txt). The menu can be accessed by right-clicking anywhere in the 'Auto-fill fluid properties' section. Full details can be found on the [ITTC webpage](https://ittc.info/media/4048/75-02-01-03.pdf). 
+
+### Recording outputs
+The 'File' menu can be used to trigger contonous recording of all data of the command window. The same menu can be used to switch logging off, or using the Exit option under the 'File' menu. Closing the app otherwise will **not** disable logging.
+
+### Visualising layer distribution
+The placement of cell centers in and vertices in terms of their y+ allocation may be viewed by right-clicking the Run button. All fields in the inputs sections must be filled prior to triggering this setting. 
 
 ## Download and install
 The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFD yplus app.mlappinstall), and installed by navigating to the Apps ribbon.
