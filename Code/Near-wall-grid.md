@@ -81,6 +81,7 @@ The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFD yplu
 
 It is possible to choose the desired $$y^+$$ or the number of layers if known in advance. In the latter case, the $$y^+$$ is computed in place of the number of layers. These settings may be changed through the dropdown menus in the Grid properties section. Similarly, when the first layer thickness is specified, the output field displaying the first layer thickness shows the achieved $$y^+$$ instead.
 
+---
 **Last update: June 18th 2022**
 - Update 2:
   - Add layer visualisation ability
