@@ -13,5 +13,8 @@ main:
   - title: "Code"
     url: /Code/
     
+  - title: "Outreach"
+    url: /outreach/
+
   - title: "Get in touch"
     url: /get-in-touch/
