@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Pre-Swirl-duct-paper
 date: 2022-03-09
 venue: 'Applied Ocean Research'
-paperurl: 'https://doi.org/xxx'
+paperurl: 'https://doi.org/10.1016/j.apor.2022.103134'
 citation: 'Andresson, J., Shiri, A. A., Bensow, R., Yixing, J., Chengsheng, W., Gengyao, Q., Deng, G., Queutey, P., Xing-Kaeding, Y., Horn, P., Lücke, T., Kobayashi, H., Ohashi, K., Sakamoto, N., Yang, F., Gao, Y., Winden, B., Meyerson, M. G., Maki, K. J., Turnock, S., Hudson, D., Banks, J., Terziev, M., Tezdogan, T., Vesting, F., Hino, T. & Werner, S., 2022, Ship-Scale CFD Benchmark Study of a Pre-Swirl Duct on KVLCC2'
 ---
 
