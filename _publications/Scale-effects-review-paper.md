@@ -5,7 +5,7 @@ permalink: /publication/review-paper-scale-effects
 excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2022-02-02
 venue: 'Ocean Engineering'
-paperurl: '10.1016/j.oceaneng.2021.110496'
+paperurl: '[10.1016/j.oceaneng.2021.110496](https://doi.org/10.1016/j.oceaneng.2021.110496)'
 citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
 ---
 
