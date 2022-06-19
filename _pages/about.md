@@ -10,6 +10,9 @@ redirect_from:
 
 Welcome! I am a postdoctoral researcher within the Faculty of Engineering at the University of Strathclyde. My research interests include using Computational Fluid Dynamics to study ship hydrodynamics, such as scale effects and shallow or confined water effects on ship performance. 
 
+<span id="badgeCont379"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont379&rid=AAA-3277-2021"></script></span>
+<span class="text-muted" data-toggle="tooltip" title="" data-original-title="https://orcid.org/0000-0002-1664-6186">0000-0002-1664-6186</span>
+<iframe src=https://www.researchgate.net/plugins/department?height=600&width=300&theme=light&type=department&installationId=62af7644e4d473044543e9d0 />
 
 **On this page:**
 * TOC
