@@ -86,6 +86,9 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
 - Integrated free surface mesh recommendations.
 - Get in touch to suggest other capabilities.
 
+**Known problems**
+- the 'Number of layers' label cannot revert to 'First layre thickness' once changed.
+
 ---
 **Last update: _June 18th 2022_**
 - Update 2:
