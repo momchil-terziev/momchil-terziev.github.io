@@ -15,6 +15,9 @@ main:
     
   - title: "Outreach"
     url: /outreach/
+    
+  - title: "Projects"
+    url: /projects/
 
   - title: "Get in touch"
     url: /get-in-touch/
