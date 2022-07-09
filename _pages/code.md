@@ -7,7 +7,9 @@ author_profile: true
 
 **On this page:**
 
-{:toc .toc__menu}
+
+* TOC
+{:toc}
 
 
 
