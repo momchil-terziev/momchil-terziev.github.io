@@ -8,7 +8,9 @@ venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2019.106696'
 citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
 ---
-
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 ### Abstract
 
 In international shipping, there are several waterways that are widely viewed as bottlenecks. Among these is the Suez Canal, where recent expansions have taken place. Although the Suez Canal has a high importance in international shipping, little research has been carried out in maximising the number of ships capable of traversing for a set period of time. The present study aims to examine hydrodynamic phenomena of ships advancing through the Suez Canal in the allowed speed range to determine the relative effects of the canal depth and/or width restrictions on the overall ship sailing performance. A rectangular canal is also included as a reference to gauge the effects of varying canal cross-section. The present study combines experimental, numerical, analytical and empirical methods for a holistic approach in calm water. As a case-study, the KCS hullform is adopted, and analysed experimentally, via Computational Fluid Dynamics, using the slender body theory, and empirical formulae. The results reveal strong coupling between the canal's cross section and all examined parameters.
