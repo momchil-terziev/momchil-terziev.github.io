@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 1.  **Terziev, M.**, Tezdogan, T., Demirel, Y.K., Muscat-Fenech, C.D.M. and Incecik, A., 2022. '[Numerical investigation of depth-varying currents on ship hydrodynamics in confined water'](/publication/2022-sheared-currents). International Journal of Naval Architecture and Ocean Engineering, p.100461. [https://doi.org/10.1016/j.ijnaoe.2022.100461](https://doi.org/10.1016/j.ijnaoe.2022.100461)
 2.  Andersson, J, Shiri, A, Bensow, R, Yixing, J, Chengsheng, W, Gengyao, Q, Deng, G, Queutey, P, Xing-Kaeding, Y, Horn, P, Lücke, T, Kobayashi, H, Ohashi, K, Sakamoto, N, Yang, F, Gao, Y, Windén, B, Meyerson, M, Maki, K, Turnock, S, Hudson, D, Banks, J, **Terziev, M**, Tezdogan, T, Vesting, F, Hino, T, Werner, S. 2020. [Ship-scale CFD benchmark study of a pre-swirl duct on KVLCC2](/publication/Pre-Swirl-duct-paper). Applied Ocean Research,  123 (2022): 103134. [https://doi.org/10.1016/j.apor.2022.103134](https://doi.org/10.1016/j.apor.2022.103134)
 3.  **Terziev, M**, Tezdogan, T & Incecik, A 2022, '[Scale effects and full-scale ship hydrodynamics: a review](/publication/review-paper-scale-effects)', Ocean Engineering, vol. 245, 110496. [https://doi.org/10.1016/j.oceaneng.2021.110496](https://doi.org/10.1016/j.oceaneng.2021.110496)
