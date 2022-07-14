@@ -8,7 +8,9 @@ venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2020.107434'
 citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2020. A posteriori error and uncertainty estimation in computational ship hydrodynamics. Ocean Engineering, 208, p.107434.'
 ---
-
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 ### Abstract
 
 The increasing relevance of simulation-based design has created a need to accurately estimate and bind numerical errors. This is particularly relevant to full-scale computational ship hydrodynamics, where measurements are difficult and expensive, simultaneously requiring a high degree of predictive accuracy even in early design stages. However, the field of ship hydrodynamics has yet to fully exploit the enhanced capabilities and potential benefits numerical verification methods have to offer. The present study presents a detailed application of numerical verification procedures in CFD as applied to local parameters, such as free surface elevation and skin friction. This is done in order to pinpoint specific locations in the computational domain responsible for heightened levels of error and uncertainty. Relationships between different parameters are demonstrated and discussed based on a set of full-scale …
