@@ -11,6 +11,9 @@ author_profile: true
 * TOC
 {:toc}
 
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 
 <input type="button" value="Print this page" onClick="window.print()" text-align="right">
 
