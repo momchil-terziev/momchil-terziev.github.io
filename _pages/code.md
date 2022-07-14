@@ -12,6 +12,7 @@ author_profile: true
 {:toc}
 
 
+<input type="button" value="Print this page" onClick="window.print()" align="right">
 
 I use MATLAB to process data for my research. Occasionally, I also write code that I reuse extensively. I will share such code on this webpage. All code and apps posted here require MATLAB to be installed on your machine. You can request a standalone app version which does not require a MATLAB license by [getting in touch](/get-in-touch).
 
