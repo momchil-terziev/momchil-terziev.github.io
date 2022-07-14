@@ -4,5 +4,8 @@ title: "Projects"
 permalink: /projects/
 ---
 
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 
 <div class="flourish-embed" data-src="visualisation/10444684"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
