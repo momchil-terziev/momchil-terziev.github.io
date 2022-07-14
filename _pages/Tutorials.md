@@ -11,7 +11,9 @@ permalink: /tutorials/
 
 ---
 
+<div class="text-right">
 <input type="button" value="Print this page" onClick="window.print()">
+</div>
 
 <div class="text-right">
   <button type="Print this page" onClick="window.print()"> Print>
