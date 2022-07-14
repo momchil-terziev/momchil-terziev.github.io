@@ -11,6 +11,7 @@ permalink: /tutorials/
 
 ---
 
+<input type="button" value="Print this page" onClick="window.print()">
 
 ## [Working with ShipX](https://momchil-terziev.github.io/resources/Working-with-shipx-title)
 ---
