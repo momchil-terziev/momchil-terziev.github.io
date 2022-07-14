@@ -8,6 +8,9 @@ venue: 'Applied Ocean Research'
 paperurl: 'https://doi.org/10.1016/j.apor.2019.101930'
 citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
 ---
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 
 ### Abstract
 
