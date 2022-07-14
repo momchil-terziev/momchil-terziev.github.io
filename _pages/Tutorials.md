@@ -13,8 +13,8 @@ permalink: /tutorials/
 
 <input type="button" value="Print this page" onClick="window.print()">
 
-<div class="text-center">
-  <button type="Print this page" onClick="window.print()"> Text-align: right</button>
+<div class="text-right">
+  <button type="Print this page" onClick="window.print()"> Print>
 </div>
 
 ## [Working with ShipX](https://momchil-terziev.github.io/resources/Working-with-shipx-title)
