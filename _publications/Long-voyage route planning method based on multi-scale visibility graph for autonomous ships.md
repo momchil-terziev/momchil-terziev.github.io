@@ -8,7 +8,9 @@ venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2021.108583'
 citation: 'Wu, G., Atilla, I., Tahsin, T., Terziev, M. and Wang, L., 2021. Long-voyage route planning method based on multi-scale visibility graph for autonomous ships. Ocean Engineering, 219, p.108242.'
 ---
-
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 ### Abstract
 
 With the increasing demand for the autonomous ship, a fast planning method for long-distance ship routes is needed. In this paper, a multi-scale Visibility Graph (VG) method is proposed for long-voyage route planning, as a solution to the problems of the slow planning and poor route accuracy. First, polygon data of obstacles are extracted from an electronic chart. In order to reduce the number of Visibility Points (VPs), the VPs are expanded from the convex points of these polygons. The small-scale, medium-scale, and large-scale VG models are established respectively. Second, this paper proposes the Local Planning Window (LPW) method, which greatly reduces the complexity of the VG models. The great circle route method is used to decompose the longer route, which further shorten the search time of the VG. The route planning process is designed for the multi-scale VG method. Finally, a long-voyage route planning example is carried out, in which, the utilization rate of the number of obstacle polygons and the number of VPs are analyzed. The data results show that: the complexity of VG models can be reduced greatly, and the search time of the VG will be shortened, by using the multi-scale VG method.
