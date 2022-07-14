@@ -8,7 +8,9 @@ venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2021.108583'
 citation: 'Nisham, A., Terziev, M., Tezdogan, T., Beard, T. and Incecik, A., 2021. Prediction of the aerodynamic behaviour of a full-scale naval ship in head waves using Detached Eddy Simulation. Ocean Engineering, 222, p.108583.'
 ---
-
+<div class="text-right">
+<input type="button" value="Print this page" onClick="window.print()">
+</div>
 ### Abstract
 
 The airwake behaviour around a ship provides useful information for the safe operation of helicopters on naval ships as well as in helicopter pilot training. This study investigates the impact of ship motions on the airwake behind the superstructure of a naval ship using Detached Eddy Simulation. A full-scale simplified frigate geometry is analysed stationary and in head waves at three different wavelengths under a uniform wind field and in the presence of an atmospheric boundary layer. The results reveal that an atmospheric boundary layer impacts significantly the airwake, as well as the vertical wave-induced motions of the ship, which reduce in amplitude by between 20.9% and 22.39% in heave, and up to approximately 38% in pitch. Moreover, the results show that the presence of an atmospheric boundary layer impacts the ship's heave and pitch motion periods. The flow field is also significantly altered depending on the ambient wavelength and period of motion, particularly in the case where an atmospheric boundary layer is modelled.
