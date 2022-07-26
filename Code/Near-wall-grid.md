@@ -87,7 +87,7 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
 - Get in touch to suggest other capabilities.
 
 **Known problems**
-- the 'First layre thickness' label cannot revert to once changed to 'Achieved y+'.
+- the 'First layer thickness' label cannot revert once changed to 'Achieved y+'.
 
 ---
 **Last update: _June 18th 2022_**
