@@ -6,7 +6,7 @@ excerpt: 'Computational fluid dynamics predictions of draught and trim variation
 date: 2022-07-26
 venue: 'Applied Ocean Research'
 paperurl: 'https://doi.org/10.3390/jmse8040258'
-citation: 'TCampbell, R., Terziev, M., Tezdogan, T., Incecik, A., Investigating the influence of loading condition on ship performance using CFD. Applied Ocean Research.'
+citation: 'Campbell, R., Terziev, M., Tezdogan, T., Incecik, A., Investigating the influence of loading condition on ship performance using CFD. Applied Ocean Research.'
 ---
 <div class="text-right">
 <input type="button" value="Print this page" onClick="window.print()">
