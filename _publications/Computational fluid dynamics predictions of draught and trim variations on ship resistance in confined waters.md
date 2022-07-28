@@ -3,7 +3,7 @@ title: "Computational fluid dynamics predictions of draught and trim variations 
 collection: publications
 permalink: /publication/trim-draft-changes-2022
 excerpt: 'Computational fluid dynamics predictions of draught and trim variations on ship resistance in confined waters.'
-date: 2022-26-07
+date: 2022-07-26
 venue: 'Applied Ocean Research'
 paperurl: 'https://doi.org/10.3390/jmse8040258'
 citation: 'TCampbell, R., Terziev, M., Tezdogan, T., Incecik, A., Investigating the influence of loading condition on ship performance using CFD. Applied Ocean Research.'
