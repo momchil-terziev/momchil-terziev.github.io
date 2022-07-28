@@ -3,7 +3,7 @@ title: "Operability Analysis of Traditional Small Fishing Boats in Indonesia wit
 collection: publications
 permalink: /publication/operability-assessment-small-fishing-boats
 excerpt: 'Operability Analysis of Traditional Small Fishing Boats in Indonesia with Different Loading Conditions.'
-date: 2022-26-07
+date: 2022-07-26
 venue: 'Ships and Offshore Structures'
 paperurl: 'https://doi.org/10.1080/17445302.2022.2107300'
 citation: 'Iqbal, M., Terziev, M, Tezdogan, T & Incecik, A 2022, Operability Analysis of Traditional Small Fishing Boats in Indonesia with Different Loading Conditions, Ships and Offshore Structures.'
