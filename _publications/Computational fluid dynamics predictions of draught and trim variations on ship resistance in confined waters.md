@@ -21,4 +21,4 @@ Adjusting a vessel's trim to improve resistance characteristics is a promising s
 - Dataset: [https://doi.org/10.15129/3b633085-7d3a-40ef-bf3f-53de0e126076](https://doi.org/10.15129/3b633085-7d3a-40ef-bf3f-53de0e126076)
 
 
-[Download a free copy here](momchil-terziev.github.io/files/Campbell_etal_AOR_2022_Computational_Fluid_Dynamics_predictions_of_draught_and_trim_changes_on_ship_resistance.pdf)
+[Download a free copy here](https://momchil-terziev.github.io/files/Campbell_etal_AOR_2022_Computational_Fluid_Dynamics_predictions_of_draught_and_trim_changes_on_ship_resistance.pdf)
