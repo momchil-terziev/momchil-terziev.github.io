@@ -71,7 +71,7 @@ Properties according to the [ITTC](https://ittc.info/media/4048/75-02-01-03.pdf)
 The temperature may be set at any value between 0.1 °C and 50 °C at 0.1 °C increments to determine the density and viscosity of the [fresh water](https://momchil-terziev.github.io/files/Fresh water properties.txt) or [salt water](https://momchil-terziev.github.io/files/Salt water properties.txt). The menu can be accessed by right-clicking anywhere in the 'Auto-fill fluid properties' section. Full details can be found on the [ITTC webpage](https://ittc.info/media/4048/75-02-01-03.pdf). 
 
 ### Recording outputs
-The 'File' menu can be used to trigger continous recording of all data of the command window. The same menu can be used to switch logging off, or using the Exit option under the 'File' menu. Closing the app otherwise will **not** disable logging. Use ```diary off``` to disable logging manually.
+The 'File' menu can be used to trigger continous recording of all data shown in the command window. When prompted to create a file for recording the outputs, use ```.txt```, ```.rtf``` or any other editor extension. The same menu can be used to switch logging off, or using the Exit option under the 'File' menu. Closing the app otherwise will **not** disable logging. Use ```diary off``` to disable logging manually.
 
 ### Visualising layer distribution
 The placement of cell centers in and vertices in terms of their y+ allocation may be viewed by right-clicking the Run button. All fields in the inputs sections must be filled prior to triggering this setting. 
