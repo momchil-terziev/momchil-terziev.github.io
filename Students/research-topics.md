@@ -18,7 +18,7 @@ A collection of research topics for 4th or 5th year students with interests in C
 
 ### 1. The fully non-linear viscous resistance of an accelerating ship in deep/shallow waters
 
-Several potential flow methods [^1] [^2] [^3] have been devised to predict the resistance of a vessel when accelerating. However, these methods ignore the action of viscosity, meaning that acceleration effects on the viscous pressure resistance and friction resistance are not accounted for. Moreover, boundary layer interactions with the wave system cannot be modelled using potential flow approaches. Within this project, an approach will be used to accurately model the flow around an accelerating ship in deep and/or shallow waters.
+Several potential flow methods [^1] [^2] [^3] have been devised to predict the resistance of a vessel when accelerating. However, these methods ignore the action of viscosity, meaning that acceleration effects on the viscous pressure resistance and friction resistance are not accounted for. Moreover, boundary layer interactions with the wave system cannot be modelled using potential flow approaches. Within this project, an approach will be used to accurately model the flow around an accelerating ship in deep and/or shallow waters. The main aim of this project is to establish an acceleration indensity profile that speeds up convergence towards statistically steady wavemaking in calm water using CFD.
 
 ### 2. ~~The effect of flow stratification on ship performance~~ [_taken up_]
 
@@ -55,6 +55,10 @@ When meshing a ship CFD case, we distribute near-wall cells in the boundary laye
 ### 10. Steady and/or unsteady ship-ship hydrodynamic interaction in confined water
 
 In this project, the steady interactoin between two ships advancing at the same speed and/or the unsteady interaction between two ships will be investigated using CFD. In the former case, the position, speed, topography of the seabed will be varied. In the latter case, the unsteady interaction between a moored, or stationary, ship and a passing ship will be investigated.
+
+### 11. Formation of boundary layers due to ship operation at very small underkeel clearances
+
+When operating in very shallow water, ships drag a large volume of water along their path. The relative motion between that layer of water and the seabed creates a boundary layer on the seabed. This project will examine the turbulent flow structures beneath a ship at very small underkeel clearances using semi-resolved turbulence modelling techniques such as Detached Eddy Simulation (DES) or Scale Resolved Hybrid (SRH) modelling.
 
 ### References
 
