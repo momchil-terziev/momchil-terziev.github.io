@@ -76,6 +76,6 @@ The final step is to check if the error,
 
 $$E=100\times(S_1-R_{EFD})/R_{EFD}$$
 
-is smaller than the validation uncertainty, where $$R_{EFD}$$ is the experimental result. If $$R_{EFD}<U_V$$ , the solution is validated; otherwise, it is not.
+is smaller than the validation uncertainty, where $$R_{EFD}$$ is the experimental result. If $$E<U_V$$ , the solution is validated; otherwise, it is not.
 
 The validation exercise is conducted with the uncertainty estimate provided by each methodology.
