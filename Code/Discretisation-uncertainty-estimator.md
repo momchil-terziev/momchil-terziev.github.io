@@ -35,8 +35,8 @@ $$R=e_{21}/e_{32}$$
 
 There are three possibilities depending on the value of $$ R $$:
 
-* Monotonic: $$0<R<1$$
-* Oscillatory convergence: $$-1<R<0$$
+* Monotonic: $$0 < R < 1$$
+* Oscillatory convergence: $$-1 < R < 0$$
 * Divergent solutions: $$R<-1$$ or $$R>1$$ 
 
 Although CFD codes have a theoretical order of accuracy $$p_t=2$$, we frequently find the observed order of accuracy deviates from $$p_t$$ considerably. The observed order of accuracy is estimated by: 
@@ -76,6 +76,6 @@ The final step is to check if the error,
 
 $$E=100\times(S_1-R_{EFD})/R_{EFD}$$
 
-is smaller than the validation uncertainty, where $$R_{EFD}$$ is the experimental result. If $$ E <U_V $$ , the solution is validated; otherwise, it is not.
+is smaller than the validation uncertainty, where $$R_{EFD}$$ is the experimental result. If $$E < U_V$$ , the solution is validated; otherwise, it is not.
 
 The validation exercise is conducted with the uncertainty estimate provided by each methodology.
