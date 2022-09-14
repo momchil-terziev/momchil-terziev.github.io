@@ -77,7 +77,7 @@ The 'File' menu can be used to trigger continous recording of all data shown in 
 The placement of cell centers in and vertices in terms of their y+ allocation may be viewed by right-clicking the Run button. All fields in the inputs sections must be filled prior to triggering this setting. 
 
 ## Download and install
-The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFD yplus app.mlappinstall), and installed by navigating to the Apps ribbon.
+The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFD yplus app.mlappinstall), and installed by navigating to the MATLAB Apps ribbon.
 
 It is possible to choose the desired $$y^+$$ or the number of layers if known in advance. In the latter case, the $$y^+$$ is computed in place of the number of layers. These settings may be changed through the dropdown menus in the Grid properties section. Similarly, when the first layer thickness is specified, the output field displaying the first layer thickness shows the achieved $$y^+$$ instead.
 
