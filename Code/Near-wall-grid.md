@@ -36,8 +36,8 @@ $$dy=y^+\nu/\surd(\tau_w/\rho)$$
 
 where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance . We do this in one of three ways:
 
-1. As a fraction of the boundary layer thickness $$\delta_x=x0.382L/Re^{1/5}$$ where $$L$$ is the ship length, and $$x%$$ is the % of the boundary layer we wish to distribute layers over. 
-2. As a fraction of the ship length $$\delta_x=x{\times}L$$, where $$x$$ is a % of the ship length
+1. As a fraction of the boundary layer thickness $$\delta_x=x0.382L/Re^{1/5}$$ where $$L$$ is the ship/body length, and $$x%$$ is the % of the boundary layer we wish to distribute layers over. 
+2. As a fraction of the ship/body length $$\delta_x=x{\times}L$$, where $$x$$ is a % of the ship/body length
 3. As a total distance $$\delta_x=x$$, where $$x$$ is a distance in m.
 
 There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the entire selected distance because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as the geometric progression:
