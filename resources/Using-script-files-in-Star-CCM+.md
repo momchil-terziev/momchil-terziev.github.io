@@ -95,7 +95,7 @@ Copy the script above and paste it into a notepad. The notepad must be saved wit
 -	Stop the listing of additional software by using `Ctrl+C`
 -	Type into the terminal `module load star-ccm/16.02.009-r8` to open Star-CCM+ version `16.02.009-r8` - press `Enter`
 -	Type into the terminal `starccm+ -mesa&` to open Star-CCM+
--	Use the software as you normally would, but **do not run simulations through Thinlinc or MobaXterm - _this is forbidden_ **
+-	Use the software as you normally would, but **do not run simulations through Thinlinc or MobaXterm - _this is forbidden_**
 -	Use the guide above to send simulations to Archie 
 
 [^1]: Replace `abc12345` with your DS username
