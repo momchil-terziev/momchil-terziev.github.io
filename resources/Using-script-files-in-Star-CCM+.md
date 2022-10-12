@@ -80,13 +80,22 @@ starccm+ -rsh /usr/bin/ssh  -np $SLURM_NPROCS  -mpi intel -machinefile $SLURM_SU
 Copy the script above and paste it into a notepad. The notepad must be saved with a `.sh` extension.
 
 
-## Instructions on how to send a simulation to Archie through Thinlinc or MobaXterm:
+## Instructions on how to send a simulation to Archie through Thinlinc or MobaXterm
 -	After you’ve logged in (Thinlinc only) open a terminal. 
 -	Type in: `mount_hdrive`
 -	Enter your password – the keys might not appear as you type.
--	Open a file explorer in Thinlinc (first option on the top right) and find your `h_drive` folder containing the script and simulation. In MobaXterm, navigate through the side panel – copy your files.
+-	Open a file explorer in Thinlinc (first option on the top left) and find your `h_drive` folder containing the script and simulation. In MobaXterm, navigate through the side panel – copy your files.
 -	Go to your home on the file explorer, eg: `/users/abc12345`[^1] and create a new folder. Make sure there are no spaces in the name of the folder; eg `StarccmFolder`; paste your files there.
 -	Copy the path eg `/users/abc12345/StarCCMFolder`, go back to the terminal and type in `cd /users/abc12345/StarCCMFolder`; the path should update.
 -	Type in `sbatch scriptname.sh` to send your simulation to HPC.
+
+## Instructions on how to open Star-CCM+ in Archie through Thinlinc of MobaXterm
+-	Open a terminal in Thinlinc (top left) or type into MobaXterm `module avail` - press `Enter`
+-	Press `Enter` if the version of your software does not immediately show until you find the correct version, for example, `star-ccm/16.02.009-r8`
+-	Stop the listing of additional software by using `Ctrl+C`
+-	Type into the terminal `module load star-ccm/16.02.009-r8` to open Star-CCM+ version `16.02.009-r8` - press `Enter`
+-	Type into the terminal `starccm+ -mesa&` to open Star-CCM+
+-	Use the software as you normally would, but **do not run simulations through Thinlinc or MobaXterm - _this is forbidden_ **
+-	Use the guide above to send simulations to Archie 
 
 [^1]: Replace `abc12345` with your DS username
