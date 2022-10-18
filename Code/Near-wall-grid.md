@@ -46,7 +46,7 @@ $$\delta_x=\underbrace{2dy+S{\times}2dy+S^2{\times}2dy+S^3{\times}2dy+...S^{n-1}
 
 whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$. The sum of all terms $\sum_{0}^{n-1} 2dyS^n$ is the thickness over which we wish to distribute cells. The number of cells we need is then 
 
-$$n=log[-\delta(S-1)/(2dy)+1]/log(S)$$
+$$n=log[-\delta(1-S)/(2dy)+1]/log(S)$$
 
 Note that we use $$2dy$$ instead of $$dy$$ because the cell centre must be located at a distance of $$dy$$ from the wall.
 
