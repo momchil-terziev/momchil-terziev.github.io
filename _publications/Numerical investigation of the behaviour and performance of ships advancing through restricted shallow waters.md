@@ -6,7 +6,7 @@ excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2018-01-01
 venue: 'Journal of Fluids and Structures'
 paperurl: 'https://doi.org/10.1016/j.jfluidstructs.2017.10.003'
-citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
+citation: 'Terziev, M., Tezdogan, T., Oguz, E., Gourlay, T., Demirel, Y.K. and Incecik, A., 2018. Numerical investigation of the behaviour and performance of ships advancing through restricted shallow waters. Journal of Fluids and Structures, 76, pp.185-215.'
 ---
 <div class="text-right">
 <input type="button" value="Print this page" onClick="window.print()">
