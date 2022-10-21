@@ -6,7 +6,7 @@ excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2019-11-01
 venue: 'Applied Ocean Research'
 paperurl: 'https://doi.org/10.1016/j.apor.2019.101930'
-citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
+citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2019. A geosim analysis of ship resistance decomposition and scale effects with the aid of CFD. Applied Ocean Research, 92, p.101930.'
 ---
 <div class="text-right">
 <input type="button" value="Print this page" onClick="window.print()">
