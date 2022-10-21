@@ -6,7 +6,7 @@ excerpt: 'A review paper on scale effects full-scale ship hydrodynamics.'
 date: 2020-01-01
 venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2019.106696'
-citation: 'Terziev, M, Tezdogan, T & Incecik, A 2022, Scale effects and full-scale ship hydrodynamics: a review, Ocean Engineering, vol. 245, 110496.'
+citation: 'Elsherbiny, K., Terziev, M., Tezdogan, T., Incecik, A. and Kotb, M., 2020. Numerical and experimental study on hydrodynamic performance of ships advancing through different canals. Ocean Engineering, 195, p.106696.'
 ---
 <div class="text-right">
 <input type="button" value="Print this page" onClick="window.print()">
