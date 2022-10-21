@@ -6,7 +6,7 @@ excerpt: 'Scale effects on a ship advancing through shallow water.'
 date: 2021-12-01
 venue: 'Ocean Engineering'
 paperurl: 'https://doi.org/10.1016/j.oceaneng.2021.108972'
-citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2021. A numerical assessment of the scale effects of a ship advancing through restricted waters. _Ocean Engineering_, _229_, p.108972.'
+citation: 'Terziev, M., Tezdogan, T. and Incecik, A., 2021. A numerical assessment of the scale effects of a ship advancing through restricted waters. Ocean Engineering, 229, p.108972.'
 ---
 <div class="text-right">
 <input type="button" value="Print this page" onClick="window.print()">
