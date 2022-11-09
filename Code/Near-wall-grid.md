@@ -59,7 +59,7 @@ The length of a transverse wave is predicted through the Doppler shifted dispers
 
 $$U^2k_{c,x}^2-gk_{c,x}\tanh{hk_{c,x}}=0$$
 
-where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength $$\lamda=2\pi/k_{c,x}$$. The number of cells we wish to distribute per wavelength are specified in the Methods section through the property Cells\$$lamda$$. Shallow water effects are accounted for only when the relevant tickbox is checked. It should be kept in mind that shallow water effects can have a singnificant effect on the $$y^+$$ values and may cause larger deviations than expected. An example of such deviations are reported in my upcoming paper on roughness effects on ship performance in confined waters.
+where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength $$\lambda=2\pi/k_{c,x}$$. The number of cells we wish to distribute per wavelength are specified in the Methods section through the property Cells\$$lambda$$. Shallow water effects are accounted for only when the relevant tickbox is checked. It should be kept in mind that shallow water effects can have a singnificant effect on the $$y^+$$ values and may cause larger deviations than expected. An example of such deviations are reported in my upcoming paper on roughness effects on ship performance in confined waters.
 
 ## User interface
 The app appears as follows when installed
