@@ -50,7 +50,16 @@ $$n=log[-\delta(1-S)/(2dy)+1]/log(S)$$
 
 Note that we use $$2dy$$ instead of $$dy$$ because the cell centre must be located at a distance of $$dy$$ from the wall.
 
-The only drawback is that we need an integer number of layers and rounding up may cause some disagreement between the target $$y^+$$ and the desired $$y^+$$. In general, this discrepency can be expected to be in the region of up to 20% for low $$y^+$$ meshes and about $$\pm$$10% for high $$y^+$$ meshes.
+The only drawback is that we need an integer number of layers and rounding up/down may cause some disagreement between the target $$y^+$$ and the desired $$y^+$$. In general, this discrepency can be expected to be in the region of up to 20% for low $$y^+$$ meshes and about $$\pm$$10% for high $$y^+$$ meshes.
+
+## Free surface mesh recomendations
+At present, the calculator only provides recommendations for the horizontal plane ($$x-y$$). In general, an aspect ratio of about 8 should be sufficient for the vertical dimension. The recommendations are based on the computed transverse wavelength. I will eventually include capability to predict the wavelengths of divergent waves as well. 
+
+The length of a transverse wave is predicted through the Doppler shifted dispersion relation $$\omega' = \pm\sqrt{g\bf{k}\tanh{\bf{k}h}}-Uk_x$$. Solving for $$\omega'=0$$ and $$\bf{k}=\sqrt{k_x^2+k_y^2}$$ gives $$U^2k^2_x-g\sqrt{k_x^2+k_y^2}\tanh{h\sqrt{k_x^2+k_y^2}}=0$$ with $$h$$ being the water depth. When $$\bf{k}h>>1$$, the results reduce to the deep water relations. To predict the wavelength, the value of $$k_x$$ at $$k_y=0$$ is computed by 
+
+$$U^2k_{c,x}^2-gk_{c,x}\tanh{hk_{c,x}}=0$$
+
+where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength $$\lamda=2\pi/k_{c,x}$$. The number of cells we wish to distribute per wavelength are specified in the Methods section through the property Cells\$$lamda$$. Shallow water effects are accounted for only when the relevant tickbox is checked.
 
 ## User interface
 The app appears as follows when installed
