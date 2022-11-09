@@ -87,6 +87,7 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
 - Update UI screenshot.
 - Allow full wavenumber spectrum prediction capability.
 - Compute dimensionless cut-off wavenumbers and wavelengths.
+- Compute wavelengths with arbitrary direction.
 - Incorporate free surface mesh recommendations in command window logging.
 - Get in touch to suggest other capabilities.
 
