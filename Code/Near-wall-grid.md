@@ -83,10 +83,11 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
 
 ---
 **Wishlist and planned updates**
-- Update user guide to include free surface mesh recommendations
-- Update UI screenshot
-- Allow full wavenumber spectrum prediction capability 
-- Compute dimensionless cut-off wavenumbers and wavelengths
+- Update user guide to include free surface mesh recommendations.
+- Update UI screenshot.
+- Allow full wavenumber spectrum prediction capability.
+- Compute dimensionless cut-off wavenumbers and wavelengths.
+- Incorporate free surface mesh recommendations in command window logging.
 - Get in touch to suggest other capabilities.
 
 **Known problems**
