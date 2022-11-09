@@ -71,7 +71,8 @@ where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength $$\lambda
 
 ## User interface
 The app appears as follows when installed
-![UI](https://momchil-terziev.github.io/files/screengrab.png)
+![UI](https://user-images.githubusercontent.com/97561226/200933158-3b9bcb3d-114f-46f0-b72d-0894fd010268.png)
+
  
 - The Help button opens this page
 - ✅ if the tickbox is ticked, the Run analysis button displays the results from all methods to predict $$C_f$$ in the command window.
