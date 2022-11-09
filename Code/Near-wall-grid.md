@@ -83,20 +83,28 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
 
 ---
 **Wishlist and planned updates**
-- Integrated free surface mesh recommendations.
+- Update user guide to include free surface mesh recommendations
+- Update UI screenshot
+- Allow full wavenumber spectrum prediction capability 
+- Compute dimensionless cut-off wavenumbers and wavelengths
 - Get in touch to suggest other capabilities.
 
 **Known problems**
 - the 'First layer thickness' label cannot revert once changed to 'Achieved y+'.
 
 ---
-**Last update: _June 18th 2022_**
+**Last update: _November 9th 2022_**
+- Update 3: 
+  - Integrated free surface mesh recommendations (x-y) directions only.
+  - Integrated shallow water theory in wavelength prediction.
+  - Fixed bug that showed half of the first layer thickness under certain conditions
+
 - Update 2:
-  - Add layer visualisation ability
-  - Add command window logging
+  - Added layer visualisation ability
+  - Added command window logging
 
 - Update 1: 
   - Set automatic density and viscosity filling 
-  - Add first layer thickness calculation capability
+  - Added first layer thickness calculation capability
   - Allow switching between Reynolds and Froude numbers in outputs
  
