@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Near-wall grid set-up for CFD"
+title: "CFD grid set-up calculator"
 ---
 ---
 
