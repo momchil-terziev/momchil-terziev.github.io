@@ -69,6 +69,11 @@ $$U^2k_{c,x}^2-gk_{c,x}\tanh{hk_{c,x}}=0$$
 
 where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength is then $$\lambda=2\pi/k_{c,x}$$. The number of cells we wish to distribute per wavelength are specified in the Methods section through the property Cells/$$\lambda$$. Shallow water effects are accounted for only when the relevant tickbox is checked. It should be kept in mind that shallow water effects can have a singnificant effect on the $$y^+$$ values and may cause larger deviations than expected. An example of such deviations are reported in my upcoming paper on roughness effects on ship performance in confined waters.
 
+<details>
+ <summary>Click here to see the full full wavenumber plane</summary>
+<img src="https://user-images.githubusercontent.com/97561226/201080984-47342f23-981e-4e25-8e5d-eb9ceb195910.jpg">
+ </details>
+
 ## User interface
 The app appears as follows when installed
 ![UI](https://user-images.githubusercontent.com/97561226/200933158-3b9bcb3d-114f-46f0-b72d-0894fd010268.png)
