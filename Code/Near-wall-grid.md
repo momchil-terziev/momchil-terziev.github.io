@@ -102,7 +102,7 @@ The temperature may be set at any value between 0.1 °C and 50 °C at 0.1 °C in
 The 'File' menu can be used to trigger continous recording of all data shown in the command window. When prompted to create a file for recording the outputs, use ```.txt```, ```.rtf``` or any other editor extension. The same menu can be used to switch logging off, or using the Exit option under the 'File' menu. Closing the app otherwise will **not** disable logging. Use ```diary off``` to disable logging manually.
 
 ### Visualising layer distribution
-The placement of cell centers in and vertices in terms of their y+ allocation may be viewed by right-clicking the Run button. All fields in the inputs sections must be filled prior to triggering this setting. 
+The placement of cell centers and vertices in terms of their y+ allocation may be viewed by right-clicking the Run button. All fields in the inputs sections must be filled prior to triggering this setting. 
 
 ## Download and install
 The app may be downloaded [here](https://momchil-terziev.github.io/Code/CFD yplus app.mlappinstall), and installed by navigating to the MATLAB Apps ribbon.
