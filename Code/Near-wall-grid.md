@@ -86,7 +86,7 @@ where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength is then $
 - The Help button opens this page
 -  The 'Compare CF' tickbox is ticked, the Run analysis button displays the results from all methods to predict $C_f$ in the command window. Note that doing so requires the calculation of the Schoenherr line which is solved numerically for $C_f$ making the predictions a bit slower.
 - The 'Fill properties' tickbox enters the fresh/salt water properties at 15 °C.
-- The 'Shallow water' tickbox enables the _Depth_ field and changes the calculation of the cut-off wavenumber $k_{c,x}$ from $g/U2$ in deep water to the foruma shown in  Equation 7. When this setting is enabled, $k_{c,x}$ is solved for numerically making predictions a bit slower.
+- The 'Shallow water' tickbox enables the _Depth_ field and changes the calculation of the cut-off wavenumber $k_{c,x}$ from $g/U^2$ in deep water to the foruma shown in  Equation 7. When this setting is enabled, $k_{c,x}$ is solved for numerically making predictions a bit slower.
 
 Properties according to the [ITTC](https://ittc.info/media/4048/75-02-01-03.pdf): 
 
