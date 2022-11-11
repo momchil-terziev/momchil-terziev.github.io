@@ -23,7 +23,7 @@ The following methods can be used at present:
 | Hughes |  $$C_f=0.067/(log_{10}(Re)-1.703)^2$$  |
 | Gadd |  $$C_f=0.0113/(log_{10}(Re)-3.7)^{1.15}$$  |
 | Granville |  $$C_f=0.0776/(log_{10}(Re)-1.88)^2+60/Re$$  |
-| Schoenherr | $$0.242/\surd{C_f}=log_{10}(Re{\times}C_f)$$ |
+| Schoenherr | $$0.242/\sqrt{C_f}=log_{10}(Re{\times}C_f)$$ |
 
 ### Calculation
 Once the line to calculate $$C_f$$ is chosen, the shear stress is predicted as: 
@@ -32,9 +32,9 @@ $$\tau_w=C_f\rho U^2/2$$
 
 Then, the first layer thickness is calculated using the desired $$y^+$$ through: 
 
-$$dy=y^+\nu/\surd(\tau_w/\rho)$$
+$$dy=y^+\nu/\sqrt{\tau_w/\rho}$$
 
-where $$\nu$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance . We do this in one of three ways:
+where $$\nu=\mu/\rho$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance. We do this in one of three ways:
 
 1. As a fraction of the boundary layer thickness $$\delta_x=x0.382L/Re^{1/5}$$ where $$L$$ is the ship/body length, and $$x%$$ is the % of the boundary layer we wish to distribute layers over. 
 2. As a fraction of the ship/body length $$\delta_x=x{\times}L$$, where $$x$$ is a % of the ship/body length
