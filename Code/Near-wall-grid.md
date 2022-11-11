@@ -53,7 +53,7 @@ Note that we use $$2dy$$ instead of $$dy$$ because the cell centre must be locat
 The only drawback is that we need an integer number of layers and rounding up/down may cause some disagreement between the target $$y^+$$ and the desired $$y^+$$. In general, this discrepency can be expected to be in the region of up to 20% for low $$y^+$$ meshes and about $$\pm$$10% for high $$y^+$$ meshes.
 
 ## Free surface mesh recomendations
-At present, the calculator only provides recommendations for the horizontal plane ($$x-y$$). In general, an aspect ratio of about 8 should be sufficient for the vertical dimension. The recommendations are based on the computed transverse wavelength. I will eventually include capability to predict the wavelengths of divergent waves as well. 
+This recommendation applies to surface-piercing bodies moving in calm water at (depth) Froude numbers < 1. At present, the calculator only provides recommendations for the horizontal plane ($$x-y$$). In general, an aspect ratio of about 8 should be sufficient for the vertical dimension. The recommendations are based on the computed transverse wavelength. I will eventually include capability to predict the wavelengths of divergent waves as well. 
 
 The length of a transverse wave is predicted through the Doppler shifted dispersion relation 
 
