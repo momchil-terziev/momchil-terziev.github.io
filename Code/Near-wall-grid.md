@@ -34,7 +34,7 @@ Then, the first layer thickness is calculated using the desired $$y^+$$ through:
 
 $$dy=y^+\nu/\sqrt{\tau_w/\rho}$$
 
-where $$\nu=\mu/\rho$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance, which can be specified in one of three ways:
+where $$\nu=\mu/\rho$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance, which can be specified in three ways:
 
 1. As a fraction of the boundary layer thickness $$\delta_x=x0.382L/Re^{1/5}$$ where $$L$$ is the ship/body length, and $$x%$$ is the % of the boundary layer we wish to distribute layers over. 
 2. As a fraction of the ship/body length $$\delta_x=x{\times}L$$, where $$x$$ is a % of the ship/body length
