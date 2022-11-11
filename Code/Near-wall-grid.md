@@ -77,7 +77,7 @@ where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength is then $
 ## User interface
 
 <details>
- <summary>Click here to view the app user interface.
+ <summary>Click here to view the app user interface.</summary>
    <img src="https://user-images.githubusercontent.com/97561226/200933158-3b9bcb3d-114f-46f0-b72d-0894fd010268.png">
 </details>
 
