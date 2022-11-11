@@ -112,7 +112,6 @@ It is possible to choose the desired $$y^+$$ or the number of layers if known in
 ---
 **Wishlist and planned updates**
 - Update user guide to include free surface mesh recommendations.
-- Update UI screenshot.
 - Allow full wavenumber spectrum prediction capability.
 - Compute dimensionless cut-off wavenumbers and wavelengths.
 - Compute wavelengths with arbitrary direction.
