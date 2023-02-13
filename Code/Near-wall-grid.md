@@ -12,7 +12,7 @@ I am developing a web-based version of the app. At present, the web-based versio
 
 <details>
  <summary>Web-based $y^+$ calculator</summary>
-<iframe width="560" height="315" src="https://momchil-terziev.github.io/yplusjs/"></iframe>
+<iframe width="560" height="400" src="https://momchil-terziev.github.io/yplusjs/"></iframe>
  </details>
 
 ## Background
