@@ -8,7 +8,12 @@ title: "CFD grid set-up calculator"
 * TOC
 {:toc}
 
-I am developing a web-based version of the app. At present, the web-based version of the app uses the ITTC correlation line only. I am adding further functionality. The standalone version of the webpage is available [here](https://momchil-terziev.github.io/yplusjs/).
+I am developing a web-based version of the app. At present, the web-based version of the app uses the ITTC correlation line only. I am adding further functionality. The standalone version of the webpage is available [here](https://momchil-terziev.github.io/yplusjs/) or by expanding the section below.
+
+<details>
+ <summary>Web-based $y^+$ calculator</summary>
+<iframe width="560" height="315" src="https://momchil-terziev.github.io/yplusjs/"></iframe>
+ </details>
 
 ## Background
 The app uses the method for setting a grid described in my [full-scale review paper](/publication/review-paper-scale-effects). The approach uses the fact that the frictional resistance coefficient ($$C_f$$) may be expressed by using the Reynolds number ($$Re$$). Here we do not make a distinction between the local frictional resistance coefficient $$C_f$$ and the integral frictional resistance coefficient $$C_F$$.
