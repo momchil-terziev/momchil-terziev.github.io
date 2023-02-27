@@ -14,9 +14,12 @@ I am developing a web-based version of the app. At present, the web-based versio
  <summary>Web-based $y^+$ calculator</summary>
 <iframe width="560" height="400" src="https://momchil-terziev.github.io/yplusjs/"></iframe>
  </details>
+ 
+## Automated definition of setttings in Star-CCM+
+I created a macro that allows the entire process described in the page to take place within Star-CCM+. This can be accessed by downloading this file and opening it as a macro in Star-CCM+. The macro creates properties under parameters that can be adjusted and set as the settings in the meshing pipeline.
 
 ## Background
-The app uses the method for setting a grid described in my [full-scale review paper](/publication/review-paper-scale-effects). The approach uses the fact that the frictional resistance coefficient ($$C_f$$) may be expressed by using the Reynolds number ($$Re$$). Here we do not make a distinction between the local frictional resistance coefficient $$C_f$$ and the integral frictional resistance coefficient $$C_F$$.
+The app uses the method for setting a grid described in my [full-scale review paper](/publication/review-paper-scale-effects). The approach uses the fact that the frictional resistance coefficient ($C_f$) may be expressed by using the Reynolds number ($Re$). Here we do not make a distinction between the local frictional resistance coefficient $C_f$ and the integral frictional resistance coefficient $C_F$.
 
 ### Frictional resistance coefficient estimation methods
 The following methods can be used at present:
@@ -33,48 +36,48 @@ The following methods can be used at present:
 | Schoenherr | $$0.242/\sqrt{C_f}=log_{10}(Re{\times}C_f)$$ |
 
 ### Calculation
-Once the line to calculate $$C_f$$ is chosen, the shear stress is predicted as: 
+Once the line to calculate $C_f$ is chosen, the shear stress is predicted as: 
 
 $$\tau_w=C_f\rho U^2/2$$
 
-Then, the first layer thickness is calculated using the desired $$y^+$$ through: 
+Then, the first layer thickness is calculated using the desired $y^+$ through: 
 
 $$dy=y^+\nu/\sqrt{\tau_w/\rho}$$
 
-where $$\nu=\mu/\rho$$ is the kinematic viscosity. We must now distribute layers over a user-specified distance, which can be specified in three ways:
+where $\nu=\mu/\rho$ is the kinematic viscosity. We must now distribute layers over a user-specified distance, which can be specified in three ways:
 
-1. As a fraction of the boundary layer thickness $$\delta_x=x0.382L/Re^{1/5}$$ where $$L$$ is the ship/body length, and $$x%$$ is the % of the boundary layer we wish to distribute layers over. 
-2. As a fraction of the ship/body length $$\delta_x=x{\times}L$$, where $$x$$ is a % of the ship/body length
-3. As a total distance $$\delta_x=x$$, where $$x$$ is a distance in m.
+1. As a fraction of the boundary layer thickness $\delta_x=x0.382L/Re^{1/5}$ where $L$ is the ship/body length, and $x%$ is the % of the boundary layer we wish to distribute layers over. 
+2. As a fraction of the ship/body length $\delta_x=x{\times}L$, where $x$ is a % of the ship/body length
+3. As a total distance $\delta_x=x$, where $x$ is a distance in m.
 
 There is no point on distrubuting layers of constant thickness equal to $$dy$$ over the entire selected distance because this would result in using unnecessarily many layers. Instead, it is possible (within Star-CCM+) to express the layer distribution as the geometric progression:
 
 $$\delta_x=\underbrace{2dy+S{\times}2dy+S^2{\times}2dy+S^3{\times}2dy+...S^{n-1}{\times}2dy}_\text{n layers}$$
 
-whose common ratio is $$S$$, a user-defined value between $$1$$ and $$\infty$$. The sum of all terms $\sum_{0}^{n-1} 2dyS^n$ is the thickness over which we wish to distribute cells. The number of cells we need is then 
+whose common ratio is $S$, a user-defined value between $1$ and $\infty$. The sum of all terms $\sum_{0}^{n-1} 2dyS^n$ is the thickness over which we wish to distribute cells. The number of cells we need is then 
 
 $$n=log[-\delta(1-S)/(2dy)+1]/log(S)$$
 
-Note that we use $$2dy$$ instead of $$dy$$ because the cell centre must be located at a distance of $$dy$$ from the wall.
+Note that we use $$2dy$$ instead of $$dy$$ because the cell centre must be located at a distance of $dy$ from the wall.
 
-The only drawback is that we need an integer number of layers and rounding up/down may cause some disagreement between the target $$y^+$$ and the desired $$y^+$$. In general, this discrepency can be expected to be in the region of up to 20% for low $$y^+$$ meshes and about $$\pm$$10% for high $$y^+$$ meshes.
+The only drawback is that we need an integer number of layers and rounding up/down may cause some disagreement between the target $y^+$ and the desired $y^+$. In general, this discrepency can be expected to be in the region of up to 20% for low $y^+$ meshes and about $\pm$10% for high $y^+$ meshes.
 
 ## Free surface mesh recomendations
-This recommendation applies to surface-piercing bodies moving in calm water at (depth) Froude numbers < 1. At present, the calculator only provides recommendations for the horizontal plane ($$x-y$$). In general, an aspect ratio of about 8 should be sufficient for the vertical dimension. The recommendations are based on the computed transverse wavelength. I will eventually include capability to predict the wavelengths of divergent waves as well. 
+This recommendation applies to surface-piercing bodies moving in calm water at (depth) Froude numbers < 1. At present, the calculator only provides recommendations for the horizontal plane ($x-y$). In general, an aspect ratio of about 8 should be sufficient for the vertical dimension. The recommendations are based on the computed transverse wavelength. I will eventually include capability to predict the wavelengths of divergent waves as well. 
 
 The length of a transverse wave is predicted through the Doppler shifted dispersion relation 
 
 $$\omega' = \pm\sqrt{gk\tanh{kh}}-Uk_x$$
 
-Solving for $$\omega'=0$$ and $$k=\sqrt{k_x^2+k_y^2}$$ gives 
+Solving for $\omega'=0$$ and $$k=\sqrt{k_x^2+k_y^2}$ gives 
 
 $$U^2k^2_x-g\sqrt{k_x^2+k_y^2}\tanh{h\sqrt{k_x^2+k_y^2}}=0$$ 
 
-with $$h$$ being the water depth. When $$kh>>1$$, the results reduce to the deep water relations. To predict the wavelength, the value of $$k_x$$ at $$k_y=0$$ is computed by 
+with $h$ being the water depth. When $$kh>>1$$, the results reduce to the deep water relations. To predict the wavelength, the value of $k_x$ at $k_y=0$ is computed by 
 
 $$U^2k_{c,x}^2-gk_{c,x}\tanh{hk_{c,x}}=0$$
 
-where $$k_{c,x}$$ is the cut-off wavenumber. The transverse wavelength is then $$\lambda=2\pi/k_{c,x}$$. The number of cells we wish to distribute per wavelength are specified in the Methods section through the property Cells/$$\lambda$$. Shallow water effects are accounted for only when the relevant tickbox is checked. It should be kept in mind that shallow water effects can have a singnificant effect on the $$y^+$$ values and may cause larger deviations than expected. An example of such deviations are reported in my upcoming paper on roughness effects on ship performance in confined waters.
+where $k_{c,x}$ is the cut-off wavenumber. The transverse wavelength is then $\lambda=2\pi/k_{c,x}$. The number of cells we wish to distribute per wavelength are specified in the Methods section through the property Cells/$\lambda$. Shallow water effects are accounted for only when the relevant tickbox is checked. It should be kept in mind that shallow water effects can have a singnificant effect on the $y^+$ values and may cause larger deviations than expected. An example of such deviations are reported in my upcoming paper on roughness effects on ship performance in confined waters.
 
 <details>
  <summary>Click here to see the full wavenumber plane for varying depth Froude numbers $F_h$</summary>
