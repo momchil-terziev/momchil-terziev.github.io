@@ -8,7 +8,7 @@ title: "CFD grid set-up calculator"
 * TOC
 {:toc}
 
-I am developing a web-based version of the app. At present, the web-based version of the app uses the ITTC correlation line only. I am adding further functionality. The standalone version of the webpage is available [here](https://momchil-terziev.github.io/yplusjs/) or by expanding the section below.
+I am developing a web-based version of the app. At present, the web-based version of the app uses the ITTC correlation line only. I am adding further functionality. The standalone version of the webpage calculator is available [here](https://momchil-terziev.github.io/yplusjs/) or by expanding the section below.
 
 <details>
  <summary>Web-based $y^+$ calculator</summary>
@@ -16,7 +16,7 @@ I am developing a web-based version of the app. At present, the web-based versio
  </details>
  
 ## Automated definition of setttings in Star-CCM+
-I created a macro that allows the entire process described in the page to take place within Star-CCM+. This can be accessed by downloading this file and opening it as a macro in Star-CCM+. The macro creates properties under parameters that can be adjusted and set as the settings in the meshing pipeline.
+I created a macro that allows the entire process described in the page to take place within Star-CCM+. This can be accessed by downloading [this file](https://momchil-terziev.github.io/Code/setupyplus.java) and opening it as a macro in Star-CCM+. The macro creates properties under parameters that can be adjusted and set as the settings in the meshing pipeline.
 
 ## Background
 The app uses the method for setting a grid described in my [full-scale review paper](/publication/review-paper-scale-effects). The approach uses the fact that the frictional resistance coefficient ($C_f$) may be expressed by using the Reynolds number ($Re$). Here we do not make a distinction between the local frictional resistance coefficient $C_f$ and the integral frictional resistance coefficient $C_F$.
