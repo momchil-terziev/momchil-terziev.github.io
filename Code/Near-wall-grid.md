@@ -69,7 +69,7 @@ The length of a transverse wave is predicted through the Doppler shifted dispers
 
 $$\omega' = \pm\sqrt{gk\tanh{kh}}-Uk_x$$
 
-Solving for $\omega'=0$$ and $$k=\sqrt{k_x^2+k_y^2}$ gives 
+Solving for $\omega'=0$ and $k=\sqrt{k_x^2+k_y^2}$ gives 
 
 $$U^2k^2_x-g\sqrt{k_x^2+k_y^2}\tanh{h\sqrt{k_x^2+k_y^2}}=0$$ 
 
