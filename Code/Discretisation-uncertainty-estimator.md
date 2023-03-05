@@ -6,7 +6,13 @@ title: "Discretisation uncertainty estimator"
 * TOC
 {:toc}
 
+I am developing a web-based version of the app. At present, the calculator **does not** handle the full validation workflow shown below. The standalone version of the webpage calculator is available [here](https://momchil-terziev.github.io/disc/) or by expanding the section below.
 
+<details>
+ <summary>Web-based discretisation uncertainty calculator</summary>
+<iframe width="560" height="400" src="https://momchil-terziev.github.io/disc/"></iframe>
+ </details>
+ 
 # Introduction
 ---
 This webpage contains documentation and set up instructions for a MATLAB app used to estimate discretisation uncertainty. The app is built to include the most common techniques for numerical uncertainty estimation. If an experimental datapoint and its uncertainty are provided, the app will run a validation check. The following table summarises the methods included.
