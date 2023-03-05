@@ -20,8 +20,8 @@ This webpage contains documentation and set up instructions for a MATLAB app use
 | Method | Included? | 
 | ------ | -------- |
 | Grid Convergence Index |  Yes |
-| Correction factor method | No|
-| Factors of Safety for Richardson Extrapolation | No |
+| Correction factor method | Online tool only|
+| Factors of Safety for Richardson Extrapolation | Online tool only |
 | Gradient method | No |
 
 # Download and installation
