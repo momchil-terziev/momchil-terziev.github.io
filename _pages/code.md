@@ -32,16 +32,4 @@ A MATLAB add-on to estimate the distribution and near-wall cell layer thickness 
 
 A MATLAB add-on to estimate the numerical uncertainty and conducts a validation assessment
 
-## Animator
-- [Documentation and download](/Code/animator/)
-
-## MS Stream transcript processor
-- [Documentation and download](https://momchil-terziev.github.io/Code/Transcript-app/)
-
-A MATLAB add-on to remove redundant text from transcripts as downloaded from MS Stream.
-
-## Planned code
-
-#### Ship-generated waves verification tool
-🔲 See the [this research topic](https://momchil-terziev.github.io/research-topics#8-development-of-a-wave-verification-tool-for-cfd-predictions)
 
