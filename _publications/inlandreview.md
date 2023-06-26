@@ -1,5 +1,5 @@
 ---
-title: "https://www.cogitatiopress.com/urbanplanning/article/view/6752"
+title: "Review of UK Inland Waterways Transportation From the Hydrodynamics Point of View"
 collection: publications
 permalink: /publication/inland-review
 excerpt: 'https://www.cogitatiopress.com/urbanplanning/article/view/6752.'
