@@ -8,7 +8,7 @@ author_profile: true
 <input type="button" value="Print this page" onClick="window.print()">
 </div>
 
-1.  **Terziev, M.**, Liu, Y., Yuan, Z., Incecik, A., ['The resistance of a trans-critically accelerating ship in shallow water'](). Ship Technology Research, _In press_
+1.  **Terziev, M.**, Liu, Y., Yuan, Z., Incecik, A., ['The resistance of a trans-critically accelerating ship in shallow water'](/publication/2023-acceleration). Ship Technology Research, _In press_
 2.  **Terziev, M.**, Mosse, J., Norman, R., Pazouki, K., Lord, R., Tezdogan, T., Thompson, C., Konovessis, D. and Incecik, A., 2023. ['Review of UK inland waterways transportation from the hydrodynamics point of view'](https://momchil-terziev.github.io/publication/inland-review). Urban Planning, 8(3).
 3.  Song, S., **Terziev, M.**, Tezdogan, T., De Marco Muscat-Fenech, C., Incecik, I., ['Investigating roughness effects on ship resistance in shallow waters'](/publication/2023-roughness)., Ocean Engineering.
 4.  Cambell, R., **Terziev, M.**, Tezdogan, T. and Incecik, A., 2022. ['Computational fluid dynamics predictions of draught and trim variations on ship resistance in confined waters'](/publication/trim-draft-changes-2022). Applied Ocean Research, 126, p.103301. [https://doi.org/10.1016/j.apor.2022.103301](https://doi.org/10.1016/j.apor.2022.103301)
