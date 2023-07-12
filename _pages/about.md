@@ -12,7 +12,7 @@ redirect_from:
 <input type="button" value="Print this page" onClick="window.print()">
 </div>
 
-Welcome! I am a postdoctoral researcher within the Faculty of Engineering at the University of Strathclyde. My research interests include using Computational Fluid Dynamics to study ship hydrodynamics, such as scale effects and shallow or confined water effects on ship performance. 
+Welcome! I am a lecturer within the Department of Naval Architecture, Ocean and Marine Engineering at the University of Strathclyde. My research interests include using Computational Fluid Dynamics to study ship hydrodynamics, such as scale effects and shallow or confined water effects on ship performance. 
 
 **On this page:**
 * TOC
