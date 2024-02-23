@@ -8,7 +8,7 @@ author_profile: true
 <input type="button" value="Print this page" onClick="window.print()">
 </div>
 
-1. Reid, P., **Terziev, M.**, Tezdogan, T., Incecik, A., [The effect of flow stratification on ship performance: a numerical study](/publications/flow-stratification). Ships and Offshore Structures
+1. Reid, P., **Terziev, M.**, Tezdogan, T., Incecik, A., [The effect of flow stratification on ship performance: a numerical study](/publication/flow-stratification). Ships and Offshore Structures
 2.  **Terziev, M.**, Liu, Y., Yuan, Z., Incecik, A., 2024 ['The resistance of a trans-critically accelerating ship in shallow water'](/publication/2023-acceleration). Ship Technology Research, 74(1).
 3.  **Terziev, M.**, Mosse, J., Norman, R., Pazouki, K., Lord, R., Tezdogan, T., Thompson, C., Konovessis, D. and Incecik, A., 2023. ['Review of UK inland waterways transportation from the hydrodynamics point of view'](https://momchil-terziev.github.io/publication/inland-review). Urban Planning, 8(3).
 4.  Song, S., **Terziev, M.**, Tezdogan, T., De Marco Muscat-Fenech, C., Incecik, I., ['Investigating roughness effects on ship resistance in shallow waters'](/publication/2023-roughness)., Ocean Engineering.
