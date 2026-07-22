@@ -92,6 +92,3 @@ In applying for a grant on discretisation uncertainty, I scoured the internet fo
 | [https://doi.org/10.1016/j.ijnaoe.2025.100739](https://doi.org/10.1016/j.ijnaoe.2025.100739)                                                                                                                                                                             | 0.58, 1.16, 0.75, 0.34, 1.68, 1.04, 0.87, 4.97, 6.18, 4.63, 8.81, 4.71, 6.14                                                                                                                                                  |
 
 
----
-
-> **Note:** Entries marked with "C" in the original CSV indicate values manually calculated using data supplied in the paper.
