@@ -51,3 +51,27 @@
     font-weight: 700;
   }
 }
+/* Theme toggle button */
+.theme-toggle-btn {
+  background: transparent;
+  border: 1px solid $border-color;
+  color: $text-color;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+
+  &:hover {
+    background: $border-color;
+    color: $body-color;
+  }
+
+  &:focus {
+    outline: 2px solid $primary-color;
+    outline-offset: 2px;
+  }
+}

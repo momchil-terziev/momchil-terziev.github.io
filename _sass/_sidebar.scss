@@ -235,3 +235,8 @@
     }
   }
 }
+
+/* Hide author profile photo on non-home pages */
+body:not(.home) .author__avatar {
+  display: none;
+}

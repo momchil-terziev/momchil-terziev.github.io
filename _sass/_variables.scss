@@ -47,20 +47,39 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
+// Dark blue theme with light mode support
+:root {
+  --primary-bg: #0f1419;
+  --primary-text: #e8f0f7;
+  --accent-color: #5b9fd9;
+  --secondary-text: #a8bccf;
+  --border-color: #5b9fd9;
+  --code-bg: #1a2332;
+}
+
+[data-theme="light"] {
+  --primary-bg: #ffffff;
+  --primary-text: #1a1a1a;
+  --accent-color: #2c5aa0;
+  --secondary-text: #666;
+  --border-color: #e8e8e6;
+  --code-bg: #fafaf9;
+}
+
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$body-color                 : var(--primary-bg, #0f1419);
+$background-color           : var(--primary-bg, #0f1419);
+$code-background-color      : var(--code-bg, #1a2332);
+$code-background-color-dark : var(--code-bg, #1a2332);
+$text-color                 : var(--primary-text, #e8f0f7);
+$border-color               : var(--border-color, #5b9fd9);
 
-$primary-color              : #7a8288;
+$primary-color              : var(--accent-color, #5b9fd9);
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
