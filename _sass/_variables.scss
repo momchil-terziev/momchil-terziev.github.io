@@ -77,9 +77,11 @@ $background-color           : var(--primary-bg, #0f1419);
 $code-background-color      : var(--code-bg, #1a2332);
 $code-background-color-dark : var(--code-bg, #1a2332);
 $text-color                 : var(--primary-text, #e8f0f7);
+$text-color-base            : #e8f0f7; // plain colour for Sass colour functions
 $border-color               : var(--border-color, #5b9fd9);
 
 $primary-color              : var(--accent-color, #5b9fd9);
+$primary-color-base         : #5b9fd9; // plain colour for Sass colour functions (mix, darken, ...)
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -113,7 +115,7 @@ $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : mix(#000, $primary-color-base, 25%);
 
 
 /*
